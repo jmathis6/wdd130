@@ -49,30 +49,3 @@ h2 {
     margin: 0 auto;
 }
 
-.top-nav {
-
-    a:link {
-        color: black;
-        background-color: transparent; 
-        text-decoration: none;  
-    }
-
-    a:visited {
-        color: #2bb8d1;
-        background-color: transparent; 
-        text-decoration: none; 
-    }   
-
-    a:hover {
-        color: #e9d07e;
-        background-color: transparent; 
-        text-decoration: underline;  
-    }
-
-    a:active {
-        color: #2bb8d1;
-        background-color: transparent; 
-        text-decoration: none; 
-    }
-}
- 
