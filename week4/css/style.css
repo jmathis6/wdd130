@@ -6,7 +6,7 @@ body {
 
 header, footer {
     margin: 0 auto;
-    border: 3px solid #33B2E6;
+    border: 3px solid #2bb8d1;
     padding: 0.5rem;
     background-color: white;
     display: grid;
@@ -16,7 +16,7 @@ header, footer {
 }
 
 header {
-    grid-template-columns: 250px 1fr;
+    grid-template-columns: 300px 1fr;
 }
 
 footer {
@@ -27,11 +27,17 @@ main {
     background-color: #e9d07e;
     padding: 1rem;
 }
-h1  {
-    color:#33B2E6;
+h1, h2  {
+    color:#2bb8d1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+h1 {
     font-size: 40px;
 }
 
+h2 {
+    font-size: 35px;
+}
 /* class selectors */
 .logo {
     width: 250px;
@@ -40,5 +46,33 @@ h1  {
 
 .page  {
     width: 960px;
-    margin: auto;
+    margin: 0 auto;
 }
+
+.top-nav {
+
+a:link {
+    color: black;
+    background-color: transparent; 
+    text-decoration: none;  
+}
+
+a:visited {
+    color: #2bb8d1;
+    background-color: transparent; 
+    text-decoration: none; 
+}   
+
+a:hover {
+    color: #e9d07e;
+    background-color: transparent; 
+    text-decoration: underline;  
+}
+
+a:active {
+    color: #2bb8d1;
+    background-color: transparent; 
+    text-decoration: none; 
+} 
+}
+ 
