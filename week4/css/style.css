@@ -1,7 +1,13 @@
 body {
-    font-size: 16px;
+    font-size: 18px;
     margin: 0;
     padding: 0;
+    color: #e9d07e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: block;
 }
 
 header, footer {
