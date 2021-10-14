@@ -28,7 +28,7 @@ main {
     padding: 1rem;
 }
 h1, h2  {
-    color:#0a0a0a;
+    color:hsl(0, 0%, 0%);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 h1 {
