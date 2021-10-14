@@ -28,15 +28,15 @@ main {
     padding: 1rem;
 }
 h1, h2  {
-    color:hsl(0, 0%, 0%);
+    color: black;;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 h1 {
-    font-size: 100px;
+    font-size: 75px;
 }
 
 h2 {
-    font-size: 75px;
+    font-size: 60px;
 }
 /* class selectors */
 .logo {
