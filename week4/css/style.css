@@ -55,3 +55,11 @@ h2 {
     margin: 0 auto;
 }
 
+.mainnav {
+    list-style-type: none;
+    display: flex; 
+}
+
+.mainnav li {
+    flex: 1 1 auto;
+}
