@@ -57,9 +57,20 @@ h2 {
 
 .mainnav {
     list-style-type: none;
-    display: flex; 
+    display: flex;
+    width: 400px; 
+    margin: 0;
+    text-align: center;
 }
 
 .mainnav li {
     flex: 1 1 auto;
+}
+
+.mainnav a {
+    display: block;
+    padding: 1 rem;
+    text-decoration: none;
+    background color: pink;
+    border: 1px solid #444;
 }
