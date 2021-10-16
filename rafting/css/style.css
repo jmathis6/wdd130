@@ -13,7 +13,6 @@ body {
 
 header, footer {
     margin: 0 auto;
-    border: 5px solid #2bb8d1;
     padding: 0.5rem;
     background-color: #8fddf5;
     display: grid;
@@ -74,21 +73,28 @@ main img {
     width: 500px; 
     margin: 0;
     text-align: left;
+    padding: 0px;
 }
 
 .topnav li {
     flex: 1 1 auto;
 }
 
-.mainnav a {
+.topnav li a {
     display: block;
-    padding: 1 rem;
+    padding: 14px 25px;
     text-decoration: none;
-    background color: pink;
-    border: 1px solid #444;
+    background-color: #f8e39c;
+    margin: 10px;
+    text-align: center;
+    color: black;
 }
 
-.mainnav a:hover {
-    color: #abe;
-    background-color: black;
+.topnav a:hover {
+    color: black;
+    background-color: #2bb8d1;
+}
+
+main    {
+    margin: 0px;
 }
