@@ -14,7 +14,7 @@ body {
 header, footer {
     margin: 0 auto;
     padding: 0.5rem;
-    background-color: #8fddf5;
+    background-color: #64a4fb;
     display: grid;
     align-items: center;
     justify-content: center;
@@ -31,17 +31,17 @@ footer {
 }
 main {
     margin: 1rem auto;
-    background-color: #f8e39c;
+    background-color: #9ddbfa;
     padding: 1rem;
 }
 h1 {
-    color: #2bb8d1;
+    color: #1c78ce;
     font-family: calibri, sans-serif;
     font-size: 40px;
 }
 
 h2 {
-    color: #2bb8d1;
+    color: #1c78ce;
     font-family: calibri, sans-serif;
     font-size: 35px;
 }
@@ -92,15 +92,15 @@ main img {
     display: block;
     padding: 14px 25px;
     text-decoration: none;
-    background-color: #f8e39c;
+    background-color: #9ddbfa;
     margin: 10px;
     text-align: center;
-    color: black;
+    color: #1c78ce;
 }
 
 .topnav a:hover {
     color: black;
-    background-color: #2bb8d1;
+    background-color: #dfedf2
 }
 
 main    {
