@@ -55,6 +55,14 @@ main img {
     box-shadow: 0 0 15px black;
 }
 
+.relax img {
+    float: right;
+}
+
+.rush img  {
+    float: left;
+}
+
 /* class selectors */
 
 .logo {
