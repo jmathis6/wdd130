@@ -4,6 +4,7 @@ body {
     padding: 0;
     color: black;
     font-family: 'Segoe UI', Geneva, sans-serif;
+    text-align: center;
 }
 
 body {
@@ -22,7 +23,8 @@ header, footer {
 }
 
 header {
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 250px 1fr;
+    margin: 0;
 }
 
 footer {
@@ -33,22 +35,29 @@ main {
     background-color: #f8e39c;
     padding: 1rem;
 }
-h1, h2  {
-    color: #2bb8d1;
-        font-family: calibri, sans-serif;
-
 h1 {
+    color: #2bb8d1;
+    font-family: calibri, sans-serif;
     font-size: 40px;
 }
 
 h2 {
-    font-size: 30px;
+    color: #2bb8d1;
+    font-family: calibri, sans-serif;
+    font-size: 35px;
 }
 
 p   {
     font-family:'Segoe UI', sans-serif;
+    line-height: 25px;
 }
+
+main img {
+    box-shadow: 0 0 15px black;
+}
+
 /* class selectors */
+
 .logo {
     width: 100px;
     height: auto;
@@ -62,9 +71,9 @@ p   {
 .topnav {
     list-style-type: none;
     display: flex;
-    width: 400px; 
+    width: 500px; 
     margin: 0;
-    text-align: center;
+    text-align: left;
 }
 
 .topnav li {
