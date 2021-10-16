@@ -1,5 +1,5 @@
 body {
-    font-size: 18px;
+    font-size: 16px;
     margin: 0;
     padding: 0;
     color: black;
@@ -30,23 +30,27 @@ footer {
 }
 main {
     margin: 1rem auto;
-    background-color: #e9d07e;
+    background-color: #f8e39c;
     padding: 1rem;
 }
 h1, h2  {
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
+    color: #2bb8d1;
+        font-family: calibri, sans-serif;
 
 h1 {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 h2 {
-    font-size: 35px;
+    font-size: 30px;
+}
+
+p   {
+    font-family:'Segoe UI', sans-serif;
 }
 /* class selectors */
 .logo {
-    width: 50px;
+    width: 100px;
     height: auto;
 }
 
@@ -55,7 +59,7 @@ h2 {
     margin: 0 auto;
 }
 
-.mainnav {
+.topnav {
     list-style-type: none;
     display: flex;
     width: 400px; 
@@ -63,7 +67,7 @@ h2 {
     text-align: center;
 }
 
-.mainnav li {
+.topnav li {
     flex: 1 1 auto;
 }
 
