@@ -27,7 +27,7 @@ header {
 }
 
 footer {
-    grid-template-columns: 800px 1fr;
+    grid-template-columns: 1fr 300px 1fr;
 }
 
 main {
