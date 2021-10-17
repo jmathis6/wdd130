@@ -44,7 +44,7 @@ h2 {
     color: #1c78ce;
     font-family: calibri, sans-serif;
     font-size: 35px;
-    margin: 25px 0px;
+    margin: 25px;
 }
 
 p   {
@@ -65,7 +65,7 @@ main img {
     float: left;
 }
 
-/* class selectors */
+
 
 .logo {
     width: 100px;
@@ -107,4 +107,8 @@ main img {
 
 main    {
     margin: 0px;
+}
+
+.credit {
+    font-size: 8px;
 }
