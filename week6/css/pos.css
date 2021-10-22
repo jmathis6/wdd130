@@ -172,26 +172,45 @@
 /* Activity 6 Styles */
 .content6 {
   /* Activity Six Container */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  position: relative;
 }
 .red6 {
-  width: 100px;
-  height: 100px;
+  width: 100%;
+  height: 125px;
   background-color: red;
+  grid-column: 1/3;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
 }
 .green6 {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 135px;
   background-color: green;
+  position: relative;
+  top: 250px;
+  z-index: 3;
 }
 .yellow6 {
-  width: 100px;
-  height: 100px;
+  width: 100%;
+  height: 250px;
   background-color: gold;
+  position: relative;
+  grid-column: 3;
+  grid-row: 2/3;
+  z-index: 4;
 }
 .blue6 {
-  width: 100px;
-  height: 100px;
+  width: 400px;
+  height: 250px;
   background-color: blue;
+  position: absolute;
+  top: 60px;
+  left: 100px;
+  z-index: 2;
 }
 
 /* Do not change this container class */
