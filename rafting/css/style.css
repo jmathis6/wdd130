@@ -12,34 +12,38 @@ header, footer {
  }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 30px 10px 30px;
 }
 
 footer {
    display: flex;
    justify-content: space-between;
-   margin: 0;
-   padding: 50px 30px 20px 30px;
+   padding: 20px 30px 20px 30px;
 }
 
 main {
     margin: 0;
     background-color: #fadbbb;
+    padding: 0 30px 30px 30px;
 }
 h1 {
-    color: rgb(117, 146, 117);
-    font-family: Helvetica, sans-serif;
+    color: #759275;
+     font-family: Helvetica, sans-serif;
     font-size: 45px;
     margin: 0 0 20px 0;
     font-style: italic;
-    text-shadow: 2px 2px 3px #182327;;
+    text-shadow: 2px 2px 3px #182327;
 }
-
-h2 {
-    color:rgb(117, 146, 117);
+h2{
+    color: #759275;
+    font-family: Helvetica, sans-serif;
+    margin: 10px;
+    text-shadow: 1px 1px 0px #182327;
+}
+h3 {
+    color:#759275;
     font-family: Helvetica, sans-serif;
     font-size: 40px;
     font-style: italic;
@@ -50,8 +54,6 @@ h2 {
 p   {
     font-family:'Segoe UI', sans-serif;
     line-height: 25px;
-    margin: 0;
-    padding: 0px 30px;
 }
 
 main img {
@@ -60,8 +62,7 @@ main img {
 }
 
 .logo {
-    width: 100px;
-    margin-left: 30px;
+    width: 125px;
     height: auto;
 }
 
@@ -74,37 +75,48 @@ main img {
     font-size: 25px;
     list-style-type: none;
     display: flex;
-    width: 430px; 
-    margin-right: 30px;
-}
+    margin: 0;
+ }
 
 .topnav li {
     flex: 1 1 auto;
 }
 
-.topnav li a {
+.topnav a {
     display: block;
     padding: 25px;
     text-decoration: none;
     background-color: #fadbbb;
     margin: 0px;
     text-align: center;
-    color: rgb(117, 146, 117);
+    color: black;
     font-weight: bold;
 }
 .topnav a:visited {
-    color: #759275;
+    color: black
     background-color: #fadbbb;
 }
 .topnav a:hover {
-    color: black;
+    color: #fadbbb;
     background-color: #759275;
 }
 .topnav a:active {
     color: #fadbbb;
     background-color: #759275;
 }
-
+.banner {
+    max-width: 920px;
+    position: relative;
+}
+.button {
+    position: absolute;
+    top: 45px;
+    left: 25px;
+    background:  #fadbbb;
+    border: 5px solid #759275;
+    padding: 5px 10px;
+    box-shadow: 0 0 20px black;
+}
 .copyright  {
     font-size: 14px;
     align-items: left;
@@ -112,5 +124,4 @@ main img {
 
 .social a:link  {
     text-decoration: none;
-    margin: 5px;
 }
