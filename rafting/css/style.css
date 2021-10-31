@@ -17,7 +17,7 @@ header, footer {
 header {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 20px 30px 10px 30px;
+    padding: 10px 30px 0px 30px;
     margin-bottom: 10px;
 }
 
@@ -35,16 +35,17 @@ main {
 }
 h1 {
     color: #759275;
-     font-family: Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
     font-size: 45px;
-    margin: 0 0 20px 0;
+    margin: 0;
+    padding: 10px;
     font-style: italic;
     text-shadow: 2px 2px 3px #182327;
 }
 h2{
     color: #759275;
-    font-family: Helvetica, sans-serif;
     font-size: 25px;
+    font-family: Helvetica, sans-serif;
     margin: 10px;
     text-shadow: 1px 1px 0px #182327;
 }
@@ -67,7 +68,7 @@ main img {
 }
 
 .logo {
-    width: 125px;
+    width: 120px;
     height: auto;
 }
 
@@ -113,14 +114,34 @@ main img {
     max-width: 920px;
     position: relative;
 }
-.button {
+.button a  {
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Helvetica, sans-serif;
+    color: #759275;
+    font-weight: bold;
     position: absolute;
-    top: 45px;
+    bottom: 45px;
     left: 25px;
-    background:  #fadbbb;
+    background-color:  #fadbbb;
     border: 5px solid #759275;
-    padding: 5px 10px;
+    padding: 15px;
     box-shadow: 0 0 20px black;
+}
+.button a:visited   {
+    color: #759275;
+    background-color: #fadbbb;
+}
+.button a:hover     {
+    text-decoration: none;
+    color: #fadbbb;
+    background-color: #759275;
+}
+.butonn a:active    {
+    text-decoration: none;
+    color: #fadbbb;
+    background-color: #759275;  
 }
 
 .section1  {
