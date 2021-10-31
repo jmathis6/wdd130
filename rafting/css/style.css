@@ -18,12 +18,14 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 20px 30px 10px 30px;
+    margin-bottom: 10px;
 }
 
 footer {
    display: flex;
    justify-content: space-between;
    padding: 20px 30px 20px 30px;
+   margin-top: 10px;
 }
 
 main {
