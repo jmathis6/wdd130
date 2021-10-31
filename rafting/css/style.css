@@ -98,7 +98,7 @@ main img {
     font-weight: bold;
 }
 .topnav a:visited {
-    color: black
+    color: black;
     background-color: #fadbbb;
 }
 .topnav a:hover {
