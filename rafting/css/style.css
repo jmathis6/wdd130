@@ -1,12 +1,12 @@
 body {
     display: block;
-    margin: 0;
+    margin: auto;
     font-family: 'Segoe UI', Geneva, sans-serif;
     text-align: center;
     font-weight:500;
     background-color: #759275;
+    max-width: 960px;
 }
-
 header, footer {
     background-color: #fadbbb;
  }
@@ -26,7 +26,7 @@ footer {
 main {
     margin: 0;
     background-color: #fadbbb;
-    padding: 0 30px 30px 30px;
+    padding: 0 30px 10px 30px;
 }
 h1 {
     color: #759275;
@@ -39,6 +39,7 @@ h1 {
 h2{
     color: #759275;
     font-family: Helvetica, sans-serif;
+    font-size: 25px;
     margin: 10px;
     text-shadow: 1px 1px 0px #182327;
 }
@@ -47,7 +48,6 @@ h3 {
     font-family: Helvetica, sans-serif;
     font-size: 40px;
     font-style: italic;
-    margin: 20px;
     text-shadow: 2px 2px 3px #182327;;
 }
 
@@ -117,9 +117,78 @@ main img {
     padding: 5px 10px;
     box-shadow: 0 0 20px black;
 }
+
+.section1  {
+    display: grid;
+    grid-template-rows: 50px 100px;
+}
+.run    {
+    margin: 10px;
+}
+.intro   {
+    Margin: 20px; 
+}
+.section2   {
+    display: grid;
+    grid-template-rows: 150px 200px;
+    grid-template-columns: 400px 1fr;
+    margin-bottom: 20px;
+}
+.calm {
+    grid-column: 2;
+    margin: 0;
+}
+.relax  {
+    grid-row: 1;
+    padding: 0px 55px;
+    margin-top: 50px;
+ }
+.scenery   {
+    align-items: center;
+    padding: 10px 35px;
+    margin: 0px;
+}
+.section3   {
+    display: grid;
+    grid-template-rows: 175px 175px;
+    grid-template-columns: 1fr 400px;
+    margin-bottom: 20px;
+}
+.whitewater {
+}
+
+.rush{
+    margin-top: 75px;
+}
+.wild {
+    grid-column: 2;
+    align-items: center;
+    padding: 10px 45px;
+    margin: 0px;
+}
+.whitewater  {
+    grid-row: 1;
+    grid-column: 1;
+    align-items: center;
+}
+.wild   {
+    align-items: center;
+}
+
+.section4  {
+    display: grid;
+    grid-template-rows: 50px 100px;
+}
+.invite {
+    margin: 10px;
+}
+.call      {
+    grid-row: 2;
+    text-align: center;
+    Margin-top: 20px; 
+ }
 .copyright  {
     font-size: 14px;
-    align-items: left;
 }
 
 .social a:link  {
