@@ -1,7 +1,5 @@
 body {
     box-sizing: border-box;
-    max-width: 1000px;
-    min-width: 1000px;
     margin: auto;
     padding: 0;
     font-family: 'Segoe UI', Geneva, sans-serif;
@@ -21,15 +19,7 @@ header {
     margin-bottom: 10px;
 }
 
-footer {
-   display: flex;
-   justify-content: space-between;
-   padding: 20px 30px 20px 30px;
-   margin-top: 10px;
-}
-
 main {
-    margin: 0;
     background-color: #fadbbb;
     padding: 0 30px 10px 30px;
 }
@@ -67,14 +57,22 @@ main img {
    margin: 20px 0;
 }
 
-.logo {
-    width: 120px;
-    height: auto;
-}
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px 20px 30px;
+    margin-top: 10px;
+ }
 
+/* CSS Information */
 .page  {
     width: 960px;
     margin: 0 auto;
+}
+/* CSS Header Information */
+.logo {
+    width: 120px;
+    height: auto;
 }
 
 .topnav {
@@ -88,7 +86,7 @@ main img {
     flex: 1 1 auto;
 }
 
-.topnav a {
+.topnav a:link {
     display: block;
     padding: 25px;
     text-decoration: none;
@@ -110,6 +108,8 @@ main img {
     color: #fadbbb;
     background-color: #759275;
 }
+
+/* CSS Banner Information */
 .banner {
     max-width: 920px;
     position: relative;
@@ -144,79 +144,90 @@ main img {
     background-color: #759275;  
 }
 
+/* CSS Main Section 1 */
 .section1  {
     display: grid;
     grid-template-rows: 50px 100px;
 }
+/* Section 1 Heading */
 .run    {
     margin: 10px;
 }
+/* Section 1 paragraph */
 .intro   {
     Margin: 20px; 
 }
+
+/* CSS Main Section 2 */
 .section2   {
     display: grid;
     grid-template-rows: 150px 200px;
     grid-template-columns: 400px 1fr;
     margin-bottom: 20px;
 }
+/* Section 2 image */
 .calm {
     grid-column: 2;
     margin: 0;
 }
+/* Section 2 Heading */
 .relax  {
     grid-row: 1;
     padding: 0px 55px;
     margin-top: 50px;
  }
+ /* Section 2 paragraph */
 .scenery   {
     align-items: center;
     padding: 10px 35px;
     margin: 0px;
 }
+
+/* CSS Main Section 3 */
 .section3   {
     display: grid;
     grid-template-rows: 175px 175px;
     grid-template-columns: 1fr 400px;
     margin-bottom: 20px;
 }
-.whitewater {
+/* Section 3 image */
+.whitewater  {
+    grid-row: 1;
+    grid-column: 1;
+    align-items: center;
 }
-
+/* Section 3 Heading */
 .rush{
     margin-top: 75px;
 }
+/* Section 3 paragraph */
 .wild {
     grid-column: 2;
     align-items: center;
     padding: 10px 45px;
     margin: 0px;
 }
-.whitewater  {
-    grid-row: 1;
-    grid-column: 1;
-    align-items: center;
-}
-.wild   {
-    align-items: center;
-}
 
+/* CSS Main Section 4 */
 .section4  {
     display: grid;
     grid-template-rows: 50px 100px;
 }
+/* Section 4 Heading */
 .invite {
     margin: 10px;
 }
+/* Section 4 paragraph */
 .call      {
     grid-row: 2;
     text-align: center;
     Margin-top: 20px; 
  }
+
+ /* CSS Footer */ 
 .copyright  {
     font-size: 14px;
 }
-
 .social a:link  {
     text-decoration: none;
 }
