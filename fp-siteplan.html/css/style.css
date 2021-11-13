@@ -82,7 +82,7 @@ footer {
 }
 /* CSS Side Naviation */
 .sidenav {
-    grid-template-columns: 1;
+    grid-columns: 1;
     background-color: #457B9D;
     border-width: 0px 0px 10px 10px; 
     border-style: solid;
