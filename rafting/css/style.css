@@ -101,7 +101,10 @@ footer {
     color: #fadbbb;
     background-color: #759275;
 }
-
+.topnav .current   {
+    color: #fadbbb;
+    background-color: #759275;
+}
 /* CSS Banner Information */
 .banner {
     max-width: 920px;
