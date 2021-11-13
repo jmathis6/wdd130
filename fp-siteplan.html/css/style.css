@@ -45,7 +45,7 @@ h3 {
     text-shadow: 2px 2px 3px #182327;
 }
 h4  {
-    color:#black;
+    color:black;
     font-family: Helvetica, sans-serif;
     font-size: 16px;
     font-weight: bold;
@@ -112,7 +112,7 @@ footer {
     background-color: #1d3557;
 }
 .sidenav a:active {
-    color: #white;
+    color: white;
     background-color: #182327;
 }
 /* Main Section CSS */
@@ -127,9 +127,6 @@ footer {
 }
 .purpose    {
     margin: 20px 0;
-}
-.calendar  {
-    margin-top:
 }
 .copyright  {
 
