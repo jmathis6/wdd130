@@ -1,0 +1,140 @@
+body {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0;
+    text-align: left;
+    font-family: 'Segoe UI', Geneva, sans-serif;
+    font-size: 16px;
+    font-weight:500;
+    background-color: #1D3557;
+    max-width: 960px;
+}
+header {
+    grid-column: 1/4;
+    grid-row: 1;
+    background-color: #457b9d;
+    border: 10px solid  #BFBFBF;
+}
+
+main {
+    background-color: #F1FAEE;
+    padding: 10px;
+    border-width: 0px 10px 10px 0px; 
+    border-style: solid;
+    border-color: #bfbfbf;
+}
+h1 {
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 48px;
+    font-style: italic;
+    text-shadow: 2px 2px 3px #1D3557;
+}
+h2 {
+    color:#457B9D;
+    font-family: Helvetica, sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    text-shadow: 2px 2px 3px #182327;
+}
+h3 {
+    color:#457B9D;
+    font-family: Helvetica, sans-serif;
+    font-size: 32px;
+    font-style: italic;
+    text-shadow: 2px 2px 3px #182327;
+}
+h4  {
+    color:#black;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+p   {
+    font-family: 'Segoe UI', Geneva, sans-serif;
+    font-size: 16px;
+}
+
+footer {
+    grid-column: 1/4;
+    grid-row: 3;
+    height: 100px;
+ }
+
+/* CSS Information */
+.page  {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    max-width: 1000px;
+}
+/* CSS Header Information */
+.logo {
+    float: left;
+    width: 120px;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+}
+.title  {
+    padding-top: 40px;
+    text-align: center;
+    margin: 0;
+}
+/* CSS Side Naviation */
+.sidenav {
+    grid-template-columns: 1;
+    background-color: #457B9D;
+    border-width: 0px 0px 10px 10px; 
+    border-style: solid;
+    border-color: #bfbfbf;
+    font-size: 20px;
+ }
+.sidenav ul {
+    list-style-type: none;
+    padding: 0 10px;
+    margin-top: 10px;
+}
+.sidenav a:link {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    background-color: #457B9D;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.sidenav a:visited {
+    color: white;
+    background-color: #457B9D;
+}
+.sidenav a:hover {
+    color: white;
+    background-color: #1d3557;
+}
+.sidenav a:active {
+    color: #white;
+    background-color: #182327;
+}
+/* Main Section CSS */
+.siteplan   {
+    margin: 10px 0;
+}
+.julie   {
+    margin: 10px 0;
+}
+.sitename   {
+    margin: 20px 0;
+}
+.purpose    {
+    margin: 20px 0;
+}
+.calendar  {
+    margin-top:
+}
+.copyright  {
+
+}
+.footer a   {
+    color: white;
+    float: right;
+}
