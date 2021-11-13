@@ -25,8 +25,8 @@ main {
 }
 h1 {
     color: white;
-    font-family: Helvetica, sans-serif;
-    font-size: 48px;
+    font-family: Harrington, sans-serif;
+    font-size: 60px;
     font-style: italic;
     text-shadow: 2px 2px 3px #1D3557;
 }
@@ -34,15 +34,13 @@ h2 {
     color:#457B9D;
     font-family: Helvetica, sans-serif;
     font-size: 40px;
-    font-style: italic;
-    text-shadow: 2px 2px 3px #182327;
+    font-weight: bold;
 }
 h3 {
     color:#457B9D;
     font-family: Helvetica, sans-serif;
     font-size: 32px;
-    font-style: italic;
-    text-shadow: 2px 2px 3px #182327;
+    font-weight: bold;
 }
 h4  {
     color:black;
@@ -79,7 +77,7 @@ footer {
     background-color: white;
 }
 .title  {
-    padding-top: 40px;
+    padding-top: 30px;
     text-align: center;
     margin: 0;
 }
@@ -120,18 +118,30 @@ footer {
 }
 /* Main Section CSS */
 .siteplan   {
-    margin: 10px 0;
+    margin: 10px 0 0 210px;
 }
 .julie   {
-    margin: 10px 0;
+    margin: 0 0 0 250px;
+
 }
 .sitename   {
-    margin: 20px 0;
+    margin: 10px 0;
 }
 .purpose    {
     margin: 20px 0;
 }
-
+.audience    {
+        margin: 20px 0;
+}
+.heart    {
+    margin: 20px 0;
+}
+.colors    {
+    margin: 20px 0;
+}
+.type    {
+    margin: 20px 0;
+}
 .copyright  {
     float: left;
 }
