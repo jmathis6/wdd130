@@ -44,7 +44,7 @@ h2 {
 p   {
     line-height: 25px;
 }
-.banner    {
+.tworafts    {
    box-shadow: 0 5px 25px black;
    margin: 20px 0;
 }
@@ -113,6 +113,9 @@ footer {
 .banner {
     max-width: 920px;
     position: relative;
+}
+.banner img     {
+
 }
 .button a  {
     display: block;
@@ -221,6 +224,38 @@ footer {
     text-decoration: none;
 }
 /* Tours Main sections */
-.raft1  {
- 
+.container1  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+ }
+.get    {
+    grid-column: 1/2;
+    padding: 10px;
+    font-size: 16px; 
+}
+.get li {
+    text-align: left;
+}
+
+.expect    {
+    grid-column: 2/3;
+    padding: 10px;
+    font-size: 16px; 
+}
+.expect li {
+    text-align: left;
+}
+.contact    {
+    grid-column: 3/4;
+    padding: 20px;
+    font-size: 16px; 
+}
+.contact li   {
+    text-align: left;
+}
+
+ .container2   {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    border-top: 10px solid #759275;
 }
