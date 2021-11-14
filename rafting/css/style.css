@@ -226,7 +226,7 @@ footer {
 /* Tours Main sections */
 .container1  {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 300px 1fr 295px;
  }
 .get    {
     grid-column: 1/2;
@@ -247,13 +247,18 @@ footer {
 }
 .contact    {
     grid-column: 3/4;
-    padding: 20px;
+    padding: 10px;
     font-size: 16px; 
 }
 .contact li   {
     text-align: left;
 }
-
+.contactus .book a:link   {
+    color: black;  
+}
+.contactus .book a:hover   {
+    color: #759275;
+}
  .container2   {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; 
