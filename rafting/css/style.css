@@ -7,7 +7,7 @@ body {
     text-align: center;
     font-weight:500;
     background-color: #759275;
-    max-width: 960px;
+    max-width: 1080px;
 }
 header, footer {
     background-color: #fadbbb;
@@ -224,43 +224,40 @@ footer {
     text-decoration: none;
 }
 /* Tours Main sections */
-.container1  {
+.tourinfo   {
     display: grid;
-    grid-template-columns: 300px 1fr 295px;
- }
-.get    {
-    grid-column: 1/2;
-    padding: 10px;
-    font-size: 16px; 
+    grid-template-columns: 300px 1fr;
+    grid-gap: 10px;
+    padding: 0;
 }
-.get li {
-    text-align: left;
+.title  {
+    grid-column: 2/4;
 }
-
-.expect    {
-    grid-column: 2/3;
-    padding: 10px;
-    font-size: 16px; 
+.container1 {
+    grid-row: 1/4;
+    border-right: 10px solid #759275;
+}   
+.get{
+    padding: 20px 0;
+} 
+.get p {
+    line-height: 8px;
 }
-.expect li {
-    text-align: left;
+.expect{
+    padding: 20px 0;
+} 
+.expect p {
+    line-height: 8px;
 }
-.contact    {
-    grid-column: 3/4;
-    padding: 10px;
-    font-size: 16px; 
+.contact  {
+    padding: 20px 0;
+} 
+.contact p  {
+    line-height: 8px;
 }
-.contact li   {
-    text-align: left;
+.container2    {
+    grid-column: 2/4;
 }
-.contactus .book a:link   {
-    color: black;  
-}
-.contactus .book a:hover   {
-    color: #759275;
-}
- .container2   {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr; 
-    border-top: 10px solid #759275;
+.half   {
+    grid-column: 2/4;
 }
