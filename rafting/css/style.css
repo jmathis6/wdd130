@@ -232,6 +232,7 @@ footer {
 }
 .title  {
     grid-column: 2/4;
+    padding: 20px;
 }
 .container1 {
     grid-row: 1/4;
@@ -260,4 +261,22 @@ footer {
 }
 .half   {
     grid-column: 2/4;
+}
+.half2  {
+    align-items: left;
+}
+.perfect    {
+    text-align: left;
+}
+.tourbullets    {
+    text-align: left;
+}
+.tour1  {
+    padding-right: 10px;
+}
+.tour2  {
+    padding-right: 10px;
+}
+.tour3  {
+    padding-right: 10px;
 }
