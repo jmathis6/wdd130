@@ -245,18 +245,22 @@ footer {
 }   
 .get{
     padding: 20px 0;
+    border-bottom: 10px solid  #759275;
 } 
 .get p {
     line-height: 8px;
 }
 .expect{
     padding: 20px 0;
+    border-bottom: 10px solid  #759275;    
 } 
 .expect p {
     line-height: 8px;
 }
 .contact  {
     padding: 20px 0;
+    border-bottom: 10px solid  #759275;    
+   
 } 
 .contact p  {
     line-height: 8px;
@@ -305,4 +309,14 @@ footer {
 }
 .container2 img {
     box-shadow: 0 5px 25px black;
+}
+.pictures img   {
+    padding: 15px 0;
+}
+.girls {
+margin-bottom: 20px;
+}
+.mist {
+    padding: 20px;
+    border-bottom: 10px solid  #759275;    
 }
