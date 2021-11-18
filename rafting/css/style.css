@@ -242,6 +242,7 @@ footer {
 .container1 {
     grid-row: 1/4;
     border-right: 10px solid #759275;
+    position: relative;
 }   
 .get{
     padding: 20px 0;
@@ -278,7 +279,8 @@ footer {
 }
 
 .half   {
-    margin-bottom: 20px;  
+    margin-bottom: 20px; 
+    position: 
 
 }
 .half p {
@@ -319,4 +321,33 @@ margin-bottom: 20px;
 .mist {
     padding: 20px;
     border-bottom: 10px solid  #759275;    
+}
+.button2 a  {
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Helvetica, sans-serif;
+    color: #759275;
+    font-weight: bold;
+    position: absolute;
+    top: 55px;
+    left: 60px;
+    background-color:  #fadbbb;
+    border: 5px solid #759275;
+    padding: 15px;
+    box-shadow: 0 0 20px black;
+}
+.button2 a:visited   {
+    color: #759275;
+    background-color: #fadbbb;
+}
+.button2 a:hover     {
+    text-decoration: none;
+    color: #fadbbb;
+    background-color: #759275;
+}
+.button2 a:active    {
+    text-decoration: none;
+    color: #fadbbb;
+    background-color: #759275;  
 }
