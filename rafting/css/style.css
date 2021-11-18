@@ -322,7 +322,7 @@ margin-bottom: 20px;
     padding: 20px;
     border-bottom: 10px solid  #759275;    
 }
-.button2 a  {
+.button2 a:link  {
     display: block;
     text-decoration: none;
     font-size: 25px;
