@@ -20,12 +20,46 @@
                 </ul>
             </nav>
         </header>
-    <main class="bookgrid">
-        <div class="contact">
-            <h2>Contact Us</h2>
-
- 
-        </div>
+    <main class="contact2">
+             <div class="contact-text">
+                 <h2>Contact Us</h2>
+                <p>Let us know which tour you want to take and when. Ask questions or let us know you'd like a call.</p>
+            </div>
+                <div class="form">
+                    <form action="contact_page" method="post">
+                        <label for="name">Name</label>
+                         <input type="text" id="name" name="name">
+                        <label for="email">Email</label>
+                         <input type="email" id="email" name="email">
+                        <label for="text">Phone (text)</label>
+                         <input type="tel" id="phone" name="phone">
+                        <label for="tour">Tour</label><br>
+                         <input type="radio" id="half-day" name="half-day" value="half-day">
+                        <label for="half-day">Half-day</label>
+                         <input type="radio" id="all-day" name="all-day" value="all-day">
+                        <label for="all-day">All-day</label>
+                         <input type="radio" id="week" name="week" value="week">
+                       <label for="week">Week</label><br>
+                       <label for="date">Choose date</label>
+                        <input type="date" id="date" name="date">
+                        <label for="comment">Comment</label>
+                        <textarea id="comment" name="comment" style="height: 150px;"></textarea>
+                        <p>
+                            <button type="submit">Submit</button>
+                        </p>
+                    </form>
+                </div>
+            </div>
+            <div class="table">
+                <table>
+                    <tr>
+                        <th>June</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                    </tr>
+                </table>
+            </div>
     </main>       
         <footer>
             <P class="copyright">© 2021 Dry Oar River Rafting Company - Julie Mathis - WDD 130-14</P>

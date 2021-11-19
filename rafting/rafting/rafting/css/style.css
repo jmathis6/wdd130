@@ -441,6 +441,69 @@ margin-bottom: 20px;
 .aboutriver p   {
    padding: 10px;
 }
-.contact    {
+.contact2    {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     border: none;
+    height: auto;
+}
+.contact-text   {
+    width: 400px;
+    text-align: left;
+}
+.contact  {
+    Float: left;
+    text-align: left;
+    width: 400px;
+}
+.form    {
+    grid-column: 1;
+    text-align: left;
+}
+.contact2 input[type=text], select, textarea {
+    height: 36px;
+    width: 100%;
+    border: 1px solid #06447b;
+    border-radius: 5px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+.contact2 input[type=email], select, textarea {
+    height: 36px;
+    width: 100%;
+    border: 1px solid #06447b;
+    border-radius: 5px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+.contact2 input[type=tel], select, textarea {
+    height: 36px;
+    width: 100%;
+    border: 1px solid #06447b;
+    border-radius: 5px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+.contact2 input[type=date], select, textarea {
+    height: 36px;
+    width: 100%;
+    border: 1px solid #06447b;
+    border-radius: 5px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+.contact2 input[type=radio], select, textarea {
+    margin-top: 6px;
+    margin-bottom: 25px;
+}
+.contact2 button {
+    width: 100px;
+    height: 36px;
+    background-color: #759275; 
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    float: right;
+    cursor: pointer;
 }
