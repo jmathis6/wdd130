@@ -1,0 +1,83 @@
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dry Oar Contact</title>
+    <meta name="description" content="This is the contact page for the Dry Oar River Rafting Company located in Spanish Fork, Utah, offering tours down the Bear River.">
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <div class="page">
+        <header>
+            <img class="logo" src="images/logogreen.png" alt="company logo">
+            <nav>
+                <ul class="topnav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="tours.html">Tours</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="book.html" class="current">Book</a></li>
+                </ul>
+            </nav>
+        </header>
+    <main class="contact2">
+             <div class="contact-text">
+                 <h2>Contact Us</h2>
+                <p>Let us know which tour you want to take and when. Ask questions or let us know you'd like a call.</p>
+            </div>
+                <div class="form">
+                    <form action="contact_page" method="post">
+                        <label for="name">Name</label>
+                         <input type="text" id="name" name="name">
+                        <label for="email">Email</label>
+                         <input type="email" id="email" name="email">
+                        <label for="text">Phone (text)</label>
+                         <input type="tel" id="phone" name="phone">
+                        <label for="tour">Tour</label><br>
+                         <input type="radio" id="half-day" name="half-day" value="half-day">
+                        <label for="half-day">Half-day</label>
+                         <input type="radio" id="all-day" name="all-day" value="all-day">
+                        <label for="all-day">All-day</label>
+                         <input type="radio" id="week" name="week" value="week">
+                       <label for="week">Week</label><br>
+                       <label for="date">Choose date</label>
+                        <input type="date" id="date" name="date">
+                        <label for="comment">Comment</label>
+                        <textarea id="comment" name="comment" style="height: 150px;"></textarea>
+                        <p>
+                            <button type="submit">Submit</button>
+                        </p>
+                    </form>
+                </div>
+            </div>
+            <div class="table">
+                <table>
+                    <tr>
+                        <th>June</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                    </tr>
+                </table>
+            </div>
+    </main>       
+        <footer>
+            <P class="copyright">© 2021 Dry Oar River Rafting Company - Julie Mathis - WDD 130-14</P>
+            <div class="social">
+                <span>
+                    <a href="https://facebook.com/" target="blank">
+                        <img src="images/fb.png" alt="Facebook Icon"> 
+                    </a>
+                    <a href="https://Twitter.com/" target="blank">
+                        <img src="images/twitter.png" alt="Twitter Icon"> 
+                    </a>
+                    <a href="https://instagram.com/" target="blank">
+                        <img src="images/instagram.png" alt="Facebook Icon">   
+                    </a>
+                </span>
+     
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
