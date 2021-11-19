@@ -17,7 +17,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 10px 30px 0px 30px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 main {
@@ -56,20 +56,19 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 20px 30px 20px 30px;
-    margin-top: 10px;
+    margin-top: 5px;
  }
 
-/* CSS Information */
+/* Class Information */
 .page  {
     max-width: 960px;
     margin: 0 auto;
 }
-/* CSS Header Information */
+/* Header CSS */
 .logo {
     width: 120px;
     height: auto;
 }
-
 .topnav {
     font-size: 25px;
     list-style-type: none;
@@ -80,7 +79,6 @@ footer {
 .topnav li {
     flex: 1 1 auto;
 }
-
 .topnav a:link {
     display: block;
     padding: 25px;
@@ -106,13 +104,19 @@ footer {
 .current   {
     text-decoration: #759275;
 }
-/* CSS Banner Information */
+/* Footer CSS */ 
+.copyright  {
+    font-size: 14px;
+}
+.social a:link  {
+    text-decoration: none;
+}
+/* Home Page CSS */
 .banner {
     max-width: 920px;
     position: relative;
 }
 .banner img     {
-
 }
 .button a  {
     display: block;
@@ -143,8 +147,6 @@ footer {
     color: #fadbbb;
     background-color: #759275;  
 }
-
-/* Home Main Section 1 */
 .section1  {
     display: grid;
     grid-template-rows: 50px 100px;
@@ -156,8 +158,6 @@ footer {
     Margin: 20px; 
     line-height: 25px;
 }
-
-/* Home Main Section 2 */
 .section2   {
     display: grid;
     grid-template-rows: 150px 200px;
@@ -185,8 +185,6 @@ footer {
 .call   {
     line-height: 25px;
 }
-
-/* Home Main Section 3 */
 .section3   {
     display: grid;
     grid-template-rows: 175px 175px;
@@ -207,7 +205,6 @@ footer {
     padding: 10px 45px;
     margin: 0px;
 }
-/* Home Main Section 4 */
 .section4  {
     display: grid;
     grid-template-rows: 50px 100px;
@@ -220,15 +217,8 @@ footer {
     text-align: center;
     Margin-top: 20px; 
  }
-
- /* CSS Footer */ 
-.copyright  {
-    font-size: 14px;
-}
-.social a:link  {
-    text-decoration: none;
-}
-/* Tours Main sections */
+ 
+/* Tour Page CSS */
 .tourinfo   {
     display: grid;
     grid-template-columns: 300px 1fr;
@@ -241,26 +231,29 @@ footer {
 }
 .container1 {
     grid-row: 1/4;
-    border-right: 10px solid #759275;
+    border-right: 5px solid #759275;
     position: relative;
-}   
+} 
+.mist {
+    padding: 20px;  
+}  
 .get{
     padding: 20px 0;
-    border-bottom: 10px solid  #759275;
+    border-bottom: 5px solid  #759275;
 } 
 .get p {
     line-height: 8px;
 }
 .expect{
     padding: 20px 0;
-    border-bottom: 10px solid  #759275;    
+    border-bottom: 5px solid  #759275;    
 } 
 .expect p {
     line-height: 8px;
 }
 .contact  {
     padding: 20px 0;
-    border-bottom: 10px solid  #759275;    
+    border-bottom: 5px solid  #759275;    
    
 } 
 .contact p  {
@@ -318,10 +311,7 @@ footer {
 .girls {
 margin-bottom: 20px;
 }
-.mist {
-    padding: 20px;
-    border-bottom: 10px solid  #759275;    
-}
+
 .button2 a:link  {
     display: block;
     text-decoration: none;
@@ -350,4 +340,104 @@ margin-bottom: 20px;
     text-decoration: none;
     color: #fadbbb;
     background-color: #759275;  
+}
+
+/* About Page CSS */
+.aboutgrid    {
+    display: grid;
+    grid-template-columns: 350px 1fr 1fr;
+    padding: 0;
+    margin: 0;
+}
+.abouttitle    {
+    grid-column: 1/4;
+    padding: 20px 0 30px 0;
+    border-bottom: 5px solid  #759275;    
+}
+.aboutus2   {
+    margin: 10px;
+}
+.aboutus    {
+    grid-column: 1;
+    grid-row: 2/6;
+    border-right: 5px solid  #759275;  
+    padding: 10px 0 60px 0;
+    position: relative;
+}
+.aboutus p  {
+    padding: 0 20px;
+}
+.button3 a:link  {
+    font-size: 25px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    bottom: 10px;
+    left: 95px;
+    text-decoration: none;
+    color: #fadbbb;
+    background-color: #759275; 
+    padding: 10px;
+}
+.button3 a:visited   {
+    text-decoration: none;
+    color: #fadbbb;
+    background-color: #759275; 
+}
+.button3 a:hover     {
+    text-decoration: none;
+    color: #759275; 
+    background-color: #fadbbb;
+    border: 5px solid #759275;
+}
+.button3 a:active    {
+    text-decoration: none;
+    color: #fadbbb;
+    background-color: #759275; 
+}
+.guides {
+    grid-column: 2/4;
+}
+.mark   {
+    grid-column: 2/3;
+    padding: 0 20px;
+}
+.denise {
+    grid-column: 3/4;
+    padding: 0 20px;
+}
+.ashley  {
+    grid-column: 2/3;
+    padding: 0 20px;
+}
+.kyle   {
+    grid-column: 3/4; 
+    padding: 0 20px; 
+}
+.jack  {
+    grid-column: 2/3;
+    padding: 0 20px;
+}
+.mckenzie  {
+    grid-column: 3/4;
+    padding: 0 20px;
+}
+.theriver   {
+    grid-column: 1/4;
+    border-top: 5px solid  #759275; 
+    position: relative; 
+}
+.river7 {
+    float: right;
+    padding: 10px;
+}
+.aboutriver {
+    grid-row: 7;
+    padding: 10px;
+}
+.aboutriver h2  {
+    margin: 10px;
+}
+.aboutriver p   {
+   padding: 10px;
 }
