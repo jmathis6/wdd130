@@ -402,26 +402,50 @@ margin-bottom: 20px;
     grid-column: 2/3;
     padding: 0 20px;
 }
+.mark img   {
+    border: 3px solid #759275;
+    border-radius: 50%;
+ }
 .denise {
     grid-column: 3/4;
     padding: 0 20px;
 }
+.denise img   {
+    border: 3px solid #759275;
+    border-radius: 50%;
+ }
 .ashley  {
     grid-column: 2/3;
     padding: 0 20px;
 }
+.ashley img   {
+    border: 3px solid #759275;
+    border-radius: 50%;
+ }
 .kyle   {
     grid-column: 3/4; 
     padding: 0 20px; 
 }
+.kyle img   {
+    border: 3px solid #759275;
+    border-radius: 50%;
+ }
 .jack  {
     grid-column: 2/3;
     padding: 0 20px;
 }
+.jack img   {
+    border: 3px solid #759275;
+    border-radius: 50%;
+ }
 .mckenzie  {
     grid-column: 3/4;
     padding: 0 20px;
 }
+.mckenzie img   {
+    border: 3px solid #759275;
+    border-radius: 50%;
+ }
 .theriver   {
     grid-column: 1/4;
     border-top: 5px solid  #759275; 
