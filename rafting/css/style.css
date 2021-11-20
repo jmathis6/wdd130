@@ -539,6 +539,12 @@ margin-bottom: 16px;
     float: right;
     cursor: pointer;
 }
+.callus {
+    margin-bottom: 25px;
+}
+.contact-right  {
+    margin-top: 20px;
+}
 .calendar   {
     grid-column: 2/3;
     padding: 0 60px;
