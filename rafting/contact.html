@@ -16,44 +16,45 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="tours.html">Tours</a></li>
                     <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html" class="current">Contact</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
                 </ul>
             </nav>
         </header>
     <main class="contact2">
-             <div class="contact-text">
-                 <h2>Contact Us</h2>
-                <p>Let us know which tour you want to take and when. Ask questions or leave a review. We want to hear from you!</p>
+        <div class="contact-left">
+            <div class="contact-text">
+                <h2>Contact Us</h2>
+               <p>Let us know which tour you want to take and when. Ask questions or leave a review.</p>
+           </div>
+                <form action="contact_page" method="post">
+                    <label for="name">First Name</label>
+                    <input type="text" id="name" name="name">
+                    <label for="name">Last Name</label>
+                    <input type="text" id="name" name="name">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                    <label for="text">Phone</label>
+                    <input type="tel" id="phone" name="phone">
+                    <label for="tour">Choose Tour</label><br>
+                    <select id="tour" name="tour">
+                        <option value="blank"></option>
+                        <option value="half-day">Half-day</option>
+                        <option value="full-day">Full-day</option>
+                        <option value="week">Week</option>
+                    </select>
+                    <label for="date">Choose Start Date</label><br>
+                    <input type="date" id="date" name="date">
+                    <label for="adults">Number of Adults (age 12+):</label>
+                    <input type="number" id="adults" name="adults" min="1" max="10"><br>
+                    <label for="children">Number of Children (ages 4-11):</label>
+                    <input type="number" id="children" name="children" min="1" max="10"><br>
+                    <label for="comment">Comment</label>
+                    <textarea id="comment" name="comment" class="textarea"></textarea>                    </form>
+                    <p>
+                        <button type="submit">Submit</button>
+                    </p>
+                </form>
             </div>
-                <div class="form-left">
-                    <form action="contact_page" method="post">
-                        <label for="name">First Name</label>
-                        <input type="text" id="name" name="name">
-                        <label for="name">Last Name</label>
-                        <input type="text" id="name" name="name">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email">
-                        <label for="text">Phone</label>
-                        <input type="tel" id="phone" name="phone">
-                        <label for="tour">Choose Tour</label><br>
-                        <select id="tour" name="tour">
-                            <option value="blank"></option>
-                            <option value="half-day">Half-day</option>
-                            <option value="full-day">Full-day</option>
-                            <option value="week">Week</option>
-                        </select>
-                        <label for="date">Choose Start Date</label><br>
-                        <input type="date" id="date" name="date">
-                        <label for="adults">Number of Adults (age 12+):</label>
-                        <input type="number" id="adults" name="adults" min="1" max="10"><br>
-                        <label for="children">Number of Children (ages 4-11):</label>
-                        <input type="number" id="children" name="children" min="1" max="10"><br>
-                        <label for="comment">Comment</label>
-                        <textarea id="comment" name="comment" class="textarea"></textarea>                    </form>
-                        <p>
-                            <button type="submit">Submit</button>
-                        </p>
-                    </div>
             <div class="calendar">
                 <h2>Calendar</h2>
                 <div class="month">

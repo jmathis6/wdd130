@@ -86,8 +86,8 @@ footer {
     color: #fadbbb;
     background-color: #759275;
 }
-.current   {
-    text-decoration: #759275;
+.active   {
+    color: #759275;
 }
 /* Footer CSS */ 
 .copyright  {
@@ -472,7 +472,7 @@ margin-bottom: 20px;
     grid-column: 1/3;
     text-align: left;
 }
-.form-left    {
+.contact-left    {
     grid-column: 1/2;
     text-align: left;
     padding-right: 30px;
