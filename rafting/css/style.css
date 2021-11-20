@@ -86,12 +86,12 @@ footer {
     color: #fadbbb;
     background-color: #759275;
 }
-.active   {
+.topnav .active {
     color: #759275;
 }
 /* Footer CSS */ 
 .copyright  {
-    font-size: 15px;
+    font-size: 15px;    
 }
 .bottomnav  {
      list-style-type: none;
@@ -335,7 +335,7 @@ ul.bottomnav    {
     padding: 15px 0;
 }
 .girls {
-margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .button2 a:link  {
@@ -571,6 +571,7 @@ margin-bottom: 16px;
 .callus {
     margin-bottom: 25px;
 }
+
 .contact-right  {
     margin-top: 20px;
     padding: 10px 40px;
@@ -579,6 +580,7 @@ margin-bottom: 16px;
     line-height: 5px;
     border: 3px solid #759275;
     padding: 0 10px 10px 10px;
+    margin-bottom: 20px;
 }
 .contact-info h2 {
     padding: 10px;
