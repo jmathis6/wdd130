@@ -93,6 +93,35 @@ footer {
 .copyright  {
     font-size: 15px;
 }
+.bottomnav  {
+     list-style-type: none;
+}
+ul.bottomnav    {
+    margin: 0;
+    padding: 0;
+}
+.bottomnav a:link {
+    display: block;
+    text-decoration: none;
+    background-color: #759275;;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+.bottomnav a:visited {
+    color: black;
+    background-color: #fadbbb;
+}
+.bottomnav a:hover {
+    color: #fadbbb;
+    background-color: #759275;
+}
+.bottomnav a:active {
+    color: #fadbbb;
+    background-color: #759275;
+}
 .social a:link  {
     text-decoration: none;
 }
