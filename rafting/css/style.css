@@ -544,6 +544,15 @@ margin-bottom: 16px;
 }
 .contact-right  {
     margin-top: 20px;
+    padding: 10px 40px;
+}
+.contact-info   {
+    line-height: 5px;
+    border: 3px solid #759275;
+    padding: 0 10px 10px 10px;
+}
+.contact-info h2 {
+    padding: 10px;
 }
 .calendar   {
     grid-column: 2/3;
@@ -578,7 +587,7 @@ margin-bottom: 16px;
     width: 13%;
 }
 .days {
-    padding: 10px 0;
+    padding: 3px 0;
     background: #eee;
     margin: 0;
 }
@@ -597,4 +606,8 @@ margin-bottom: 16px;
 }
 .start  {
     background-color: #c8d3c8;
+}
+.shading    {
+    font-size: 14px;
+
 }
