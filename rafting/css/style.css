@@ -565,7 +565,7 @@ margin-bottom: 16px;
 .weekdays   {
     margin: 0;
     padding: 10px 0;
-    background-color: #ddd;
+    background-color: #c8d3c8;
 }
 .weekdays li    {
     display: inline-block;
@@ -590,5 +590,5 @@ margin-bottom: 16px;
     color: white;
 }
 .start  {
-    background-color: #ddd;
+    background-color: #c8d3c8;
 }
