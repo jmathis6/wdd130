@@ -27,27 +27,29 @@
             </div>
                 <div class="form-left">
                     <form action="contact_page" method="post">
-                        <label for="name">Name</label>
+                        <label for="name">First Name</label>
+                        <input type="text" id="name" name="name">
+                        <label for="name">Last Name</label>
                         <input type="text" id="name" name="name">
                         <label for="email">Email</label>
                         <input type="email" id="email" name="email">
                         <label for="text">Phone</label>
                         <input type="tel" id="phone" name="phone">
-                        <label for="tour">Choose tour</label><br>
+                        <label for="tour">Choose Tour</label><br>
                         <select id="tour" name="tour">
                             <option value="blank"></option>
                             <option value="half-day">Half-day</option>
                             <option value="full-day">Full-day</option>
                             <option value="week">Week</option>
                         </select>
-                        <label for="date">Choose date</label><br>
+                        <label for="date">Choose Start Date</label><br>
                         <input type="date" id="date" name="date">
                         <label for="adults">Number of Adults (age 12+):</label>
                         <input type="number" id="adults" name="adults" min="1" max="10"><br>
                         <label for="children">Number of Children (ages 4-11):</label>
                         <input type="number" id="children" name="children" min="1" max="10"><br>
                         <label for="comment">Comment</label>
-                        <textarea id="comment" name="comment" style="height: 150px;"></textarea>                    </form>
+                        <textarea id="comment" name="comment" class="textarea"></textarea>                    </form>
                         <p>
                             <button type="submit">Submit</button>
                         </p>
@@ -75,28 +77,28 @@
                         <li>4</li>
                         <li>5</li>
                         <li>6</li>
-                        <li class="shade">7</li>
+                        <li>7</li>
                         <li class="shade">8</li>
-                        <li>9</li>
+                        <li class="start">9</li>
                         <li>10</li>
                         <li>11</li>
                         <li>12</li>
                         <li>13</li>
-                        <li class="shade">14</li>
+                        <li>14</li>
                         <li class="shade">15</li>
                         <li>16</li>
                         <li>17</li>
                         <li>18</li>
                         <li>19</li>
                         <li>20</li>
-                        <li class="shade">21</li>
+                        <li>21</li>
                         <li class="shade">22</li>
-                        <li>23</li>
+                        <li class="start">23</li>
                         <li>24</li>
                         <li>25</li>
                         <li>26</li>
                         <li>27</li>
-                        <li class="shade">28</li>
+                        <li>28</li>
                         <li class="shade">29</li>
                         <li>30</li>
                         <li class="blank">.</li>
@@ -105,62 +107,11 @@
                         <li class="blank">.</li>
                         <li class="blank">.</li>
                     </ul>
-                    <div class="month">
-                        <ul class="july">
-                            <li>July 2022</li>
-                        </ul>
-                    </div>
-                        <ul class="weekdays">
-                            <li>Mo</li>
-                            <li>Tu</li>
-                            <li>We</li>
-                            <li>Th</li>
-                            <li>Fr</li>
-                            <li>Sa</li>
-                            <li>Su</li>
-                        </ul>
-                        <ul class="days">
-                            <li class="shade">1</li>
-                            <li>2</li>
-                            <li>3</li>
-                            <li>4</li>
-                            <li>5</li>
-                            <li>6</li>
-                            <li class="shade">7</li>
-                            <li class="shade">8</li>
-                            <li>9</li>
-                            <li>10</li>
-                            <li>11</li>
-                            <li>12</li>
-                            <li>13</li>
-                            <li class="shade">14</li>
-                            <li class="shade">15</li>
-                            <li>16</li>
-                            <li>17</li>
-                            <li>18</li>
-                            <li>19</li>
-                            <li>20</li>
-                            <li class="shade">21</li>
-                            <li class="shade">22</li>
-                            <li>23</li>
-                            <li>24</li>
-                            <li>25</li>
-                            <li>26</li>
-                            <li>27</li>
-                            <li class="shade">28</li>
-                            <li class="shade">29</li>
-                            <li>30</li>
-                            <li class="blank">.</li>
-                            <li class="blank">.</li>
-                            <li class="blank">.</li>
-                            <li class="blank">.</li>
-                            <li class="blank">.</li>
+                 <div class="month">
+                    <ul class="july">
+                        <li>July 2022</li>
                     </ul>
-                    <div class="month">
-                        <ul class="august">
-                            <li>August 2022</li>
-                        </ul>
-                    </div>
+                </div>
                     <ul class="weekdays">
                         <li>Mo</li>
                         <li>Tu</li>
@@ -171,44 +122,94 @@
                         <li>Su</li>
                     </ul>
                     <ul class="days">
-                        <li class="shade">1</li>
+                        <li class="blank">.</li>
+                        <li class="blank">.</li>
+                        <li>1</li>
                         <li>2</li>
                         <li>3</li>
                         <li>4</li>
                         <li>5</li>
-                        <li>6</li>
-                        <li class="shade">7</li>
-                        <li class="shade">8</li>
+                        <li class="shade">6</li>
+                        <li class="start">7</li>
+                        <li>8</li>
                         <li>9</li>
                         <li>10</li>
                         <li>11</li>
                         <li>12</li>
-                        <li>13</li>
-                        <li class="shade">14</li>
-                        <li class="shade">15</li>
+                        <li class="shade">13</li>
+                        <li>14</li>
+                        <li>15</li>
                         <li>16</li>
                         <li>17</li>
                         <li>18</li>
                         <li>19</li>
-                        <li>20</li>
-                        <li class="shade">21</li>
-                        <li class="shade">22</li>
+                        <li class="shade">20</li>
+                        <li class="start">21</li>
+                        <li>22</li>
                         <li>23</li>
                         <li>24</li>
                         <li>25</li>
                         <li>26</li>
-                        <li>27</li>
-                        <li class="shade">28</li>
-                        <li class="shade">29</li>
+                        <li class="shade">27</li>
+                        <li>28</li>
+                        <li>29</li>
                         <li>30</li>
                         <li class="blank">.</li>
                         <li class="blank">.</li>
                         <li class="blank">.</li>
+                   </ul>
+                <div class="month">
+                    <ul class="august">
+                        <li>August 2022</li>
+                    </ul>
+                </div>
+                    <ul class="weekdays">
+                        <li>Mo</li>
+                        <li>Tu</li>
+                        <li>We</li>
+                        <li>Th</li>
+                        <li>Fr</li>
+                        <li>Sa</li>
+                        <li>Su</li>
+                    </ul>
+                    <ul class="days">
                         <li class="blank">.</li>
                         <li class="blank">.</li>
-                    </div>
- 
-            </div>
+                        <li class="blank">.</li>
+                        <li class="blank">.</li>                       
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li class="shade">4</li>
+                        <li class="start">5</li>
+                        <li>6</li>
+                        <li>7</li>
+                        <li>8</li>
+                        <li>9</li>
+                        <li>10</li>
+                        <li class="shade">11</li>
+                        <li>12</li>
+                        <li>13</li>
+                        <li>14</li>
+                        <li>15</li>
+                        <li>16</li>
+                        <li>17</li>
+                        <li class="shade">18</li>
+                        <li class="start">19</li>
+                        <li>20</li>
+                        <li>21</li>
+                        <li>22</li>
+                        <li>23</li>
+                        <li>24</li>
+                        <li class="shade">25</li>
+                        <li>26</li>
+                        <li>27</li>
+                        <li>28</li>
+                        <li>29</li>
+                        <li>30</li>
+                        <li class="blank">.</li>
+                    </ul>
+              </div>
     </main>       
         <footer>
             <P class="copyright">© 2021 Dry Oar River Rafting Company - Julie Mathis - WDD 130-14</P>

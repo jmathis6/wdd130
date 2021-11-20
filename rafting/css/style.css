@@ -7,7 +7,7 @@ body {
     text-align: center;
     font-weight:500;
     background-color: #759275;
-    max-width: 1080px;
+    max-width: 960px;
 }
 header, footer {
     background-color: #fadbbb;
@@ -40,18 +40,6 @@ h2 {
     font-style: italic;
     text-shadow: 2px 2px 3px #182327;
 }
-
-.tworafts    {
-   box-shadow: 0 5px 25px black;
-   margin: 20px 0;
-}
-.calm    {
-    box-shadow: 0 5px 25px black;
-    margin: 20px 0;
- }.whitewater    {
-    box-shadow: 0 5px 25px black;
-    margin: 20px 0;
- }
 footer {
     display: flex;
     justify-content: space-between;
@@ -60,10 +48,7 @@ footer {
  }
 
 /* Class Information */
-.page  {
-    max-width: 960px;
-    margin: 0 auto;
-}
+
 /* Header CSS */
 .logo {
     width: 120px;
@@ -106,7 +91,7 @@ footer {
 }
 /* Footer CSS */ 
 .copyright  {
-    font-size: 14px;
+    font-size: 15px;
 }
 .social a:link  {
     text-decoration: none;
@@ -147,6 +132,10 @@ footer {
     color: #fadbbb;
     background-color: #759275;  
 }
+.tworafts    {
+    box-shadow: 0 5px 25px black;
+    margin: 20px 0;
+ }
 .section1  {
     display: grid;
     grid-template-rows: 50px 100px;
@@ -167,6 +156,10 @@ footer {
 .calm {
     grid-column: 2;
     margin: 0;
+}
+.calm    {
+    box-shadow: 0 5px 25px black;
+    margin: 20px 0;
 }
 .relax  {
     grid-row: 1;
@@ -195,6 +188,10 @@ footer {
     grid-row: 1;
     grid-column: 1;
     align-items: center;
+}
+.whitewater    {
+    box-shadow: 0 5px 25px black;
+    margin: 20px 0;
 }
 .rush{
     margin-top: 75px;
@@ -402,25 +399,49 @@ margin-bottom: 20px;
     grid-column: 2/3;
     padding: 0 20px;
 }
+.mark img {
+    border: 3px solid #759275;
+    border-radius: 50%;
+}
 .denise {
     grid-column: 3/4;
     padding: 0 20px;
+}
+.denise img {
+    border: 3px solid #759275;
+    border-radius: 50%;
 }
 .ashley  {
     grid-column: 2/3;
     padding: 0 20px;
 }
+.ashley img {
+    border: 3px solid #759275;
+    border-radius: 50%;
+}
 .kyle   {
     grid-column: 3/4; 
     padding: 0 20px; 
+}
+.kyle img {
+    border: 3px solid #759275;
+    border-radius: 50%;
 }
 .jack  {
     grid-column: 2/3;
     padding: 0 20px;
 }
+.jack img {
+    border: 3px solid #759275;
+    border-radius: 50%;
+}
 .mckenzie  {
     grid-column: 3/4;
     padding: 0 20px;
+}
+.mckenzie img {
+    border: 3px solid #759275;
+    border-radius: 50%;
 }
 .theriver   {
     grid-column: 1/4;
@@ -459,7 +480,7 @@ margin-bottom: 20px;
 .contact2 input[type=text], select, textarea{
     height: 36px;
     width: 100%;
-    border: 1px solid #06447b;
+    border: 1px solid #759275; 
     border-radius: 5px;
     margin-top: 6px;
     margin-bottom: 16px;
@@ -467,7 +488,7 @@ margin-bottom: 20px;
 .contact2 input[type=email], select, textarea {
     height: 36px;
     width: 100%;
-    border: 1px solid #06447b;
+    border: 1px solid #759275; 
     border-radius: 5px;
     margin-top: 6px;
     margin-bottom: 16px;
@@ -475,7 +496,7 @@ margin-bottom: 20px;
 .contact2 input[type=tel], select, textarea {
     height: 36px;
     width: 100%;
-    border: 1px solid #06447b;
+    border: 1px solid #759275; 
     border-radius: 5px;
     margin-top: 6px;
     margin-bottom: 16px;
@@ -483,7 +504,7 @@ margin-bottom: 20px;
 .contact2 input[type=date], select, textarea {
     height: 36px;
     width: 100%;
-    border: 1px solid #06447b;
+    border: 1px solid #759275; 
     border-radius: 5px;
     margin-top: 6px;
     margin-bottom: 16px;
@@ -491,7 +512,7 @@ margin-bottom: 20px;
 .contact2 select {
 height: 36px;
 width: 100%;
-border: 1px solid #06447b;
+border: 1px solid #759275; 
 border-radius: 5px;
 margin-top: 6px;
 margin-bottom: 16px;
@@ -499,10 +520,13 @@ margin-bottom: 16px;
 .contact2 input[type=number]  {
     height: 36px;
     width: 15%;
-    border: 1px solid #06447b;
+    border: 1px solid #759275; 
     border-radius: 5px;
     margin-top: 6px;
     margin-bottom: 16px;
+}
+.textarea   {
+    height: 150px;
 }
 .contact2 button {
     width: 100px;
@@ -564,4 +588,7 @@ margin-bottom: 16px;
 }
 .blank  {
     color: white;
+}
+.start  {
+    background-color: #ddd;
 }
