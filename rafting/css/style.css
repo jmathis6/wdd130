@@ -262,8 +262,11 @@ ul.bottomnav    {
     position: relative;
 } 
 .mist {
-    padding: 20px;  
-}  
+    padding: 10px;  
+} 
+.smallpix   {
+    box-shadow: 0 5px 15px black;  
+} 
 .get{
     padding: 20px 0;
     border-bottom: 5px solid  #759275;
@@ -294,6 +297,7 @@ ul.bottomnav    {
     line-height: 8px;
     text-align: left;  
 }
+
 .container2    {
     text-align: left;
 }
@@ -394,6 +398,9 @@ ul.bottomnav    {
 .aboutus p  {
     padding: 0 20px;
 }
+.company    {
+    box-shadow: 0 0 10px black;
+}
 .button3 a:link  {
     font-size: 25px;
     font-family: Helvetica, sans-serif;
@@ -424,6 +431,7 @@ ul.bottomnav    {
 }
 .guides {
     grid-column: 2/4;
+    margin-top: 20px;
 }
 .mark   {
     grid-column: 2/3;
@@ -480,7 +488,10 @@ ul.bottomnav    {
 }
 .river7 {
     float: right;
-    padding: 10px;
+    margin: 10px;
+}
+.river7 img {
+    box-shadow: 0 0 10px black;
 }
 .aboutriver {
     grid-row: 7;
