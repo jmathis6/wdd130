@@ -16,49 +16,198 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="tours.html">Tours</a></li>
                     <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html" class="current">Book</a></li>
+                    <li><a href="contact.html" class="current">Contact</a></li>
                 </ul>
             </nav>
         </header>
     <main class="contact2">
              <div class="contact-text">
                  <h2>Contact Us</h2>
-                <p>Let us know which tour you want to take and when. Ask questions or let us know you'd like a call.</p>
+                <p>Let us know which tour you want to take and when. Ask questions or leave a review. We want to hear from you!</p>
             </div>
-                <div class="form">
+                <div class="form-left">
                     <form action="contact_page" method="post">
                         <label for="name">Name</label>
-                         <input type="text" id="name" name="name">
+                        <input type="text" id="name" name="name">
                         <label for="email">Email</label>
-                         <input type="email" id="email" name="email">
-                        <label for="text">Phone (text)</label>
-                         <input type="tel" id="phone" name="phone">
-                        <label for="tour">Tour</label><br>
-                         <input type="radio" id="half-day" name="half-day" value="half-day">
-                        <label for="half-day">Half-day</label>
-                         <input type="radio" id="all-day" name="all-day" value="all-day">
-                        <label for="all-day">All-day</label>
-                         <input type="radio" id="week" name="week" value="week">
-                       <label for="week">Week</label><br>
-                       <label for="date">Choose date</label>
+                        <input type="email" id="email" name="email">
+                        <label for="text">Phone</label>
+                        <input type="tel" id="phone" name="phone">
+                        <label for="tour">Choose tour</label><br>
+                        <select id="tour" name="tour">
+                            <option value="blank"></option>
+                            <option value="half-day">Half-day</option>
+                            <option value="full-day">Full-day</option>
+                            <option value="week">Week</option>
+                        </select>
+                        <label for="date">Choose date</label><br>
                         <input type="date" id="date" name="date">
+                        <label for="adults">Number of Adults (age 12+):</label>
+                        <input type="number" id="adults" name="adults" min="1" max="10"><br>
+                        <label for="children">Number of Children (ages 4-11):</label>
+                        <input type="number" id="children" name="children" min="1" max="10"><br>
                         <label for="comment">Comment</label>
-                        <textarea id="comment" name="comment" style="height: 150px;"></textarea>
+                        <textarea id="comment" name="comment" style="height: 150px;"></textarea>                    </form>
                         <p>
                             <button type="submit">Submit</button>
                         </p>
-                    </form>
+                    </div>
+            <div class="calendar">
+                <h2>Calendar</h2>
+                <div class="month">
+                    <ul class="june">
+                        <li>June 2022</li>
+                    </ul>
                 </div>
-            </div>
-            <div class="table">
-                <table>
-                    <tr>
-                        <th>June</th>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                    </tr>
-                </table>
+                    <ul class="weekdays">
+                        <li>Mo</li>
+                        <li>Tu</li>
+                        <li>We</li>
+                        <li>Th</li>
+                        <li>Fr</li>
+                        <li>Sa</li>
+                        <li>Su</li>
+                    </ul>
+                    <ul class="days">
+                        <li class="shade">1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                        <li>6</li>
+                        <li class="shade">7</li>
+                        <li class="shade">8</li>
+                        <li>9</li>
+                        <li>10</li>
+                        <li>11</li>
+                        <li>12</li>
+                        <li>13</li>
+                        <li class="shade">14</li>
+                        <li class="shade">15</li>
+                        <li>16</li>
+                        <li>17</li>
+                        <li>18</li>
+                        <li>19</li>
+                        <li>20</li>
+                        <li class="shade">21</li>
+                        <li class="shade">22</li>
+                        <li>23</li>
+                        <li>24</li>
+                        <li>25</li>
+                        <li>26</li>
+                        <li>27</li>
+                        <li class="shade">28</li>
+                        <li class="shade">29</li>
+                        <li>30</li>
+                        <li class="blank">.</li>
+                        <li class="blank">.</li>
+                        <li class="blank">.</li>
+                        <li class="blank">.</li>
+                        <li class="blank">.</li>
+                    </ul>
+                    <div class="month">
+                        <ul class="july">
+                            <li>July 2022</li>
+                        </ul>
+                    </div>
+                        <ul class="weekdays">
+                            <li>Mo</li>
+                            <li>Tu</li>
+                            <li>We</li>
+                            <li>Th</li>
+                            <li>Fr</li>
+                            <li>Sa</li>
+                            <li>Su</li>
+                        </ul>
+                        <ul class="days">
+                            <li class="shade">1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                            <li>6</li>
+                            <li class="shade">7</li>
+                            <li class="shade">8</li>
+                            <li>9</li>
+                            <li>10</li>
+                            <li>11</li>
+                            <li>12</li>
+                            <li>13</li>
+                            <li class="shade">14</li>
+                            <li class="shade">15</li>
+                            <li>16</li>
+                            <li>17</li>
+                            <li>18</li>
+                            <li>19</li>
+                            <li>20</li>
+                            <li class="shade">21</li>
+                            <li class="shade">22</li>
+                            <li>23</li>
+                            <li>24</li>
+                            <li>25</li>
+                            <li>26</li>
+                            <li>27</li>
+                            <li class="shade">28</li>
+                            <li class="shade">29</li>
+                            <li>30</li>
+                            <li class="blank">.</li>
+                            <li class="blank">.</li>
+                            <li class="blank">.</li>
+                            <li class="blank">.</li>
+                            <li class="blank">.</li>
+                    </ul>
+                    <div class="month">
+                        <ul class="august">
+                            <li>August 2022</li>
+                        </ul>
+                    </div>
+                    <ul class="weekdays">
+                        <li>Mo</li>
+                        <li>Tu</li>
+                        <li>We</li>
+                        <li>Th</li>
+                        <li>Fr</li>
+                        <li>Sa</li>
+                        <li>Su</li>
+                    </ul>
+                    <ul class="days">
+                        <li class="shade">1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                        <li>6</li>
+                        <li class="shade">7</li>
+                        <li class="shade">8</li>
+                        <li>9</li>
+                        <li>10</li>
+                        <li>11</li>
+                        <li>12</li>
+                        <li>13</li>
+                        <li class="shade">14</li>
+                        <li class="shade">15</li>
+                        <li>16</li>
+                        <li>17</li>
+                        <li>18</li>
+                        <li>19</li>
+                        <li>20</li>
+                        <li class="shade">21</li>
+                        <li class="shade">22</li>
+                        <li>23</li>
+                        <li>24</li>
+                        <li>25</li>
+                        <li>26</li>
+                        <li>27</li>
+                        <li class="shade">28</li>
+                        <li class="shade">29</li>
+                        <li>30</li>
+                        <li class="blank">.</li>
+                        <li class="blank">.</li>
+                        <li class="blank">.</li>
+                        <li class="blank">.</li>
+                        <li class="blank">.</li>
+                    </div>
+ 
             </div>
     </main>       
         <footer>
