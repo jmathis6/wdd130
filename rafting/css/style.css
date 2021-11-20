@@ -86,8 +86,9 @@ footer {
     color: #fadbbb;
     background-color: #759275;
 }
-.topnav .active {
+.topnav a.active {
     color: #759275;
+    background-color: #fadbbb:
 }
 /* Footer CSS */ 
 .copyright  {
