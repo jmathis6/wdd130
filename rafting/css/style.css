@@ -88,7 +88,7 @@ footer {
 }
 .topnav a.active {
     color: #759275;
-    background-color: #fadbbb:
+    background-color: #fadbbb;
 }
 /* Footer CSS */ 
 .copyright  {
@@ -303,9 +303,7 @@ ul.bottomnav    {
 }
 
 .half   {
-    margin-bottom: 20px; 
-    position: 
-
+    margin-bottom: 20px;
 }
 .half p {
     margin: 0;
