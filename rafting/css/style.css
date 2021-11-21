@@ -183,23 +183,19 @@ ul.bottomnav    {
     grid-template-columns: 400px 1fr;
     margin-bottom: 20px;
 }
-.calm {
-    grid-column: 2;
-    margin: 0;
-}
 .calm    {
     box-shadow: 0 5px 25px black;
-    margin: 20px 0;
+    justify-content: center;
 }
 .relax  {
     grid-row: 1;
-    padding: 0px 55px;
-    margin-top: 50px;
- }
+    align-self: end;
+    margin: 0;
+}
  .scenery   {
-    align-items: center;
-    padding: 10px 35px;
-    margin: 0px;
+    justify-content: center;
+    align-self: start;
+    padding: 0 40px;
     line-height: 25px;
 }
 .wild   {
@@ -215,36 +211,32 @@ ul.bottomnav    {
     margin-bottom: 20px;
 }
 .whitewater  {
-    grid-row: 1;
-    grid-column: 1;
-    align-items: center;
-}
-.whitewater    {
+    grid-row: 1/3;
+    align-self: end;
     box-shadow: 0 5px 25px black;
-    margin: 20px 0;
 }
 .rush{
-    margin-top: 75px;
+    grid-row: 1;
+    align-self: end;
+    margin: 0;
 }
 .wild {
-    grid-column: 2;
-    align-items: center;
-    padding: 10px 45px;
-    margin: 0px;
+    justify-content: center;
+    align-self: start;
+    padding: 0 40px;
+    line-height: 25px;
 }
 .section4  {
     display: grid;
     grid-template-rows: 50px 100px;
 }
 .invite {
-    margin: 10px;
+    align-self: center;
+    padding-top: 10px;
 }
 .call      {
-    grid-row: 2;
-    text-align: center;
-    Margin-top: 20px; 
- }
- 
+    padding: 0 15px;
+} 
 /* Tour Page CSS */
 .tourinfo   {
     display: grid;
