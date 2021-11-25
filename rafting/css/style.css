@@ -302,14 +302,18 @@ ul.bottomnav    {
 .half p {
     margin: 0 20px;
 }
+.full img {
+    margin-left: 19px;
+}
 .full   {
     margin-bottom: 20px;   
-
 }
 .full p {
     margin: 0 20px;
 }
-
+.week img   {
+    margin-left: 19px;
+}
 .week p {
     margin: 0 20px;
 }
