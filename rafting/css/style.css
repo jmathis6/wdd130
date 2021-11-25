@@ -293,7 +293,9 @@ ul.bottomnav    {
 .container2    {
     text-align: left;
 }
-
+.half img {
+    margin-left: 19px;
+}
 .half   {
     margin-bottom: 20px;
 }
