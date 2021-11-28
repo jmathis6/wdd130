@@ -1,0 +1,181 @@
+body {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0;
+    text-align: left;
+    font-family: 'Segoe UI', Geneva, sans-serif;
+    font-size: 16px;
+    font-weight:500;
+    background-color: #1D3557;
+    max-width: 960px;
+}
+header {
+    grid-column: 1/4;
+    grid-row: 1;
+    background-color: #457b9d;
+    border-width: 5px 5px 0 5px; 
+    border-style: solid;
+    border-color: #bfbfbf;
+}
+
+main {
+    background-color: #F1FAEE;
+    padding: 10px;
+    border-width: 0px 5px 5px 0px; 
+    border-style: solid;
+    border-color: #bfbfbf;
+}
+h1 {
+    color: white;
+    font-family: Harrington, sans-serif;
+    font-size: 60px;
+    font-style: italic;
+    text-shadow: 2px 2px 3px #1D3557;
+}
+h2 {
+    color:#457B9D;
+    font-family: Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+h3 {
+    color:#457B9D;
+    font-family: Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+h4  {
+    color:black;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+p   {
+    font-family: 'Segoe UI', Geneva, sans-serif;
+    font-size: 16px;
+}
+
+footer {
+    grid-column: 1/4;
+    grid-row: 3;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    color: white;
+ }
+
+/* CSS Information */
+.page  {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    max-width: 1000px;
+}
+/* CSS Header Information */
+.logo {
+    float: right;
+    width: 120px;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+}
+.title  {
+    padding: 30px;
+    text-align: center;
+    margin: 0;
+}
+/* Top Navigation */
+.topnav {
+    font-size: 25px;
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding-left: 5px;
+    border-bottom: 5px solid #bfbfbf;;  
+    background-color: #457B9D;  
+ }
+
+.topnav li {
+    flex: 1 1 auto;
+}
+.topnav a:link {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    margin: 0px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.topnav a:visited {
+    color: white;
+}
+.topnav a:hover {
+    color: white;
+    background-color: #1d3557;  
+}
+.topnav a:active {
+    color: white;
+    background-color: #1d3557;
+}
+.active    {
+    color: #1D3557;    
+}
+
+/* CSS Side Naviation */
+.sidenav {
+    grid-column: 1;
+    background-color: #457B9D;
+    border-width: 0px 0px 5px 5px; 
+    border-style: solid;
+    border-color: #bfbfbf;
+    font-size: 20px;
+ }
+.sidenav ul {
+    list-style-type: none;
+    padding: 0 10px;
+    margin-top: 10px;
+}
+.sidenav a:link {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    background-color: #457B9D;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.sidenav a:visited {
+    color: white;
+    background-color: #457B9D;
+}
+.sidenav a:hover {
+    color: white;
+    background-color: #1d3557;
+}
+.sidenav a:active {
+    color: white;
+    background-color: #182327;
+}
+/* Main Section CSS */
+.page_title {
+    margin-left: 110px;
+}
+.cal_title  {
+    margin-left: 120px;
+}
+.rec_title {
+    margin-left: 110px;
+}
+.mem_title {
+    margin-left: 120px;
+}
+/*footer */
+
+.copyright  {
+    float: left;
+}
+.footer a   {
+    color: white;
+    float: right;
+}

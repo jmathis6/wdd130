@@ -82,10 +82,6 @@ footer {
     color: #fadbbb;
     background-color: #759275;
 }
-.topnav a:active {
-    color: #fadbbb;
-    background-color: #759275;
-}
 .topnav a.active {
     color: #5D765D;
     background-color: #fadbbb;
