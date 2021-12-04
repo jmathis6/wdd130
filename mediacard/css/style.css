@@ -62,8 +62,6 @@ position: relative;
     transform: rotate(0.75turn);
 }
 .details    {
-    list-style-type: none;
-    display: block;
     padding: 5px;
     border: 1px solid black;
     border-radius: 10px;
@@ -73,7 +71,6 @@ position: relative;
     color: black;
     background-color: rgb(231, 236, 238);
     font-weight: bold;
-    float: right;
     margin: 0 20px 20px 100px;
 }
 .details:hover{
