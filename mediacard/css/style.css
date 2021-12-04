@@ -50,10 +50,16 @@ position: relative;
     top: 10px;
     right: 15px;
 }
+.like:hover {
+    transform: scale(1.2);
+}
 .heart  {
     position: absolute;
     top: 13px;
     right: 8px;
+}
+.heart:active   {
+    transform: rotate(0.75turn);
 }
 .details    {
     list-style-type: none;
@@ -69,4 +75,8 @@ position: relative;
     font-weight: bold;
     float: right;
     margin: 0 20px 20px 100px;
+}
+.details:hover{
+    color: rgb(231, 236, 238);  
+    background-color: #0d547c
 }
