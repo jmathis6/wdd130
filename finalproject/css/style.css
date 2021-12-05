@@ -1,39 +1,33 @@
 body {
     box-sizing: border-box;
-    margin: auto;
-    padding: 0;
-    text-align: left;
+    height: 100%;
+    width: 100%;
+    min-width: 960px;
+    margin: 0px;
     font-family: 'Segoe UI', Geneva, sans-serif;
     font-size: 16px;
     font-weight:500;
-    background-color: #1D3557;
-    max-width: 960px;
+    background-color: white;
 }
 header {
-    grid-column: 1/4;
-    grid-row: 1;
-    background-color: #457b9d;
-    border-width: 5px 5px 0 5px; 
-    border-style: solid;
-    border-color: #bfbfbf;
-}
+    height: 125px;
+    display: flex;
+    position: relative;
+    border-bottom: 20px solid #A62639;
+ }
 
 main {
-    background-color: #F1FAEE;
-    padding: 10px;
-    border-width: 0px 5px 5px 0px; 
-    border-style: solid;
-    border-color: #bfbfbf;
+    display: grid;
+    grid-template-columns: 250px 1fr;
 }
 h1 {
-    color: white;
-    font-family: Harrington, sans-serif;
+    color: #1D3557;
+    font-family: Calibri, sans-serif;
     font-size: 60px;
     font-style: italic;
-    text-shadow: 2px 2px 3px #1D3557;
-}
+ }
 h2 {
-    color:#457B9D;
+    color:#1D3557;
     font-family: Helvetica, sans-serif;
     font-size: 40px;
     font-weight: bold;
@@ -57,42 +51,44 @@ p   {
 }
 
 footer {
-    grid-column: 1/4;
-    grid-row: 3;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 0;
+    display: grid;
+    grid-template-columns: 600px 1fr;
     color: white;
- }
+    background-color: #457B9D;  
+    border-top: 5px solid #bfbfbf; 
+    border-bottom: 5px solid #bfbfbf;
+}
 
 /* CSS Information */
-.page  {
-    display: grid;
-    grid-template-columns: 250px 1fr;
-    max-width: 1000px;
+.center  {
+    width: 960px;
+    margin: 0px auto;
 }
 /* CSS Header Information */
 .logo {
-    float: right;
-    width: 120px;
-    height: auto;
-    padding: 10px;
-    background-color: white;
+    position: absolute;
+    margin: 30PX 0px;
 }
 .title  {
-    padding: 30px;
-    text-align: center;
-    margin: 0;
+    margin: 40PX 0 0 90px;
+
 }
 /* Top Navigation */
 .topnav {
-    font-size: 25px;
+    width: 100%;
+    height: 60px;
+    border-top: 5px solid #bfbfbf; 
+    border-bottom: 5px solid #bfbfbf;
+    background-color: #457B9D;  
+   
+}
+.topnav ul{
+    font-size: 20px;
     list-style-type: none;
     display: flex;
     margin: 0;
     padding-left: 5px;
-    border-bottom: 5px solid #bfbfbf;;  
-    background-color: #457B9D;  
+
  }
 
 .topnav li {
@@ -126,10 +122,8 @@ footer {
 .sidenav {
     grid-column: 1;
     background-color: #457B9D;
-    border-width: 0px 0px 5px 5px; 
-    border-style: solid;
-    border-color: #bfbfbf;
     font-size: 20px;
+    margin: 0;
  }
 .sidenav ul {
     list-style-type: none;
@@ -159,23 +153,32 @@ footer {
 }
 /* Main Section CSS */
 .page_title {
-    margin-left: 110px;
+    text-align: left;
+    margin-left: 20px;
 }
-.cal_title  {
-    margin-left: 120px;
-}
-.rec_title {
-    margin-left: 110px;
-}
-.mem_title {
-    margin-left: 120px;
+.familypix  {
+    grid-column: 2/3;
+    grid-row: 1;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    max-height: 100%;
 }
 /*footer */
-
 .copyright  {
-    float: left;
+    padding-left: 30px;
 }
-.footer a   {
+.bottom_nav {
+    padding-top: 15px;
+}
+.bottom_nav a:link, a:visited  {
     color: white;
-    float: right;
+    text-decoration: none;
+    padding-right: 100px;
+    font-weight: bold;
 }
+
+.bottom_nav a:hover, a:active {
+    color: #182327;
+}
+
