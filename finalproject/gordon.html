@@ -5,22 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MFA Home</title>
-    <meta name="description" content="This is the home page for the Mathis Family Archives.">
+    <meta name="description" content="This is a subpage for the Gordon Mathis Family as part of the Mathis Family Archives.">
     <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
-    <div class="page">
-        <header>
-            <div class="center">
-                <img class="logo" src="images/hhlogo2.png" alt="company logo"> 
-                <h1 class="title">Gordon Mathis Family Archives</h1> 
-            </div>
-        </header>
+    <header>
+        <div class="center">
+            <img class="logo" src="images/hhlogo2.png" alt="company logo"> 
+            <h1 class="title">Gordon Mathis Family Archives</h1> 
+        </div>
+    </header>
     <nav class="topnav">
         <div class="center">
             <ul >
                 <li><a href="index.html">Home</a></li>
-                <li><a href="news.html" target="_blank">News</a></li>
+                <li><a href="news.html" target="_self">News</a></li>
                 <li><a href="calendar.html" target="_blank">Calendar</a></li>
                 <li><a href="recipes.html" target="_blank">Recipes</a></li>
                 <li><a href="photos.html" target="_blank">Photos</a></li>   
@@ -29,7 +28,7 @@
             </ul>
         </div>
     </nav>
-    <main>
+    <div class="page">
         <div class="sidenav">
             <nav>
                 <ul>
@@ -43,14 +42,19 @@
                 </ul>
             </nav>
         </div>
-        <h2 class="page_title">Gordon & Julie</h2>      
+      
+        <main>
+            <h2 class="page_title">Gordon & Julie</h2>  
         </main>
+    </div>
         <footer>
             <P class="copyright">© Mathis Family Archives - Julie Mathis - WDD 130-14</P>
-            <div class="footer">
-                <a href="gordon.html">Top</a>
+            <div class="bottom_nav">
+                 <a href="gordon.html" class="top">Top</a>
+                 <a href="about.html" class="about">About</a>
+                 <a href="contact.html" class="contact">Contact</a>
             </div>
         </footer>
-    </div>
+
 </body>
 </html>
