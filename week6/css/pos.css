@@ -171,7 +171,7 @@
 
 /* Activity 6 Styles */
 .content6 {
-  /* Activity Seven Container */
+  /* Activity Six Container */
   height: 400px;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
