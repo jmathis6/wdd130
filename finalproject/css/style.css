@@ -70,7 +70,7 @@ header {
     background-color: #457B9D;   
 }
 .topnav ul{
-    font-size: 18px;
+    font-size: 16px;
     list-style-type: none;
     display: flex;
     margin: 0;
@@ -106,10 +106,9 @@ header {
 
 /* CSS Side Naviation */
 .sidenav {
-    grid-column: 1/2;;
     background-color: #457B9D;
     border-right: 5px solid #bfbfbf;
-    font-size: 16px;
+    font-size: 14px;
     margin: 0px; 
  }
 .sidenav ul {
@@ -138,9 +137,10 @@ header {
 }
 /* Home Page Information */
 .page {
-    height: 100%;
+    width: 960px;
+    margin: 0px auto;
     display: grid;
-    grid-template-columns: 200px 1fr 1fr;
+    grid-template-columns: 165px 1fr;
 }
 .familypix  {
     grid-column: 2/7;
