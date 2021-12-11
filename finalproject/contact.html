@@ -28,24 +28,26 @@
             </ul>
         </div>
     </nav>
-    <div class="page">
-        <div class="sidenav">
-            <nav>
-                <ul>
-                    <li><a href="gordon.html">Gordon & Julie</a></li>
-                    <li><a href="jessica.html">Jessica</a></li>
-                    <li><a href="david.html">David</a></li>
-                    <li><a href="whitney.html">Whitney</a></li>
-                    <li><a href="heather.html">Heather</a></li>
-                    <li><a href="mckell.html">Mckell</a></li>
-                    <li><a href="karen.html">Karen</a></li>
-                </ul>
-            </nav>
-        </div>
-      
-        <main>
-            <h2 class="page_title">Contact</h2>  
-        </main>
+    <main class="contact">
+            <div class="contact-left">
+                <h2 class="contact-text">Contact</h2>
+                <div class="form">
+                    <form action="contact_page" method="post"></form>
+                        <label for="name">Name</label>
+                        <input type="text" id="name">
+                        <label for="email">Email</label>
+                        <input type="email" id="email">
+                        <label for="comment">Comment</label>
+                        <textarea name="comment" id="comment" class="textarea"></textarea>
+                        <p>
+                            <button type="submit">Submit</button>
+                        </p>
+                </div>
+            </div>    
+            <div class="contact-right">
+                <img src="images/family4.jpg" alt="family">
+            </div>
+    </main>
     </div>
         <footer>
             <P class="copyright">© Mathis Family Archives - Julie Mathis - WDD 130-14</P>
@@ -55,6 +57,5 @@
                  <a href="contact.html" class="contact">Contact</a>
             </div>
         </footer>
-
 </body>
 </html>

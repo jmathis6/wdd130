@@ -8,6 +8,7 @@ body {
     font-family: 'Segoe UI', Geneva, sans-serif;
     font-size: 14px;
     background-color: #bfbfbf;  
+    font-weight: 500;
 }
 
 h1 {
@@ -21,7 +22,6 @@ h2 {
     font-family: Helvetica, sans-serif;
     font-size: 40px;
     font-weight: bold;
-    text-align: center;
     text-align: left;
     margin-left: 20px;
 }
@@ -95,11 +95,11 @@ header {
 }
 .topnav a:hover {
     color: white;
-    background-color: #1d3557;  
+    background-color: #1D3557;
 }
 .topnav a:active {
     color: white;
-    background-color: #1d3557;
+    background-color: #1D3557;
 }
 .active    {
     color: #1D3557;    
@@ -132,14 +132,14 @@ header {
 }
 .sidenav a:hover {
     color: white;
-    background-color: #1d3557;
+    background-color: #1D3557;
 }
 .sidenav a:active {
     color: white;
-    background-color: #182327;
+    background-color: #1D3557;
 }
 main    {
-    width: 960px;
+    max-width: 960px;
     margin: 0px auto;  
     background-color: white;
      
@@ -151,6 +151,7 @@ main    {
 }
 .familypix  {
     grid-column: 2/3;
+    
 }
 .welcome    {
     padding: 0 20px;
@@ -201,19 +202,61 @@ main    {
 /* Recipe Page */
 .recipes   {
     display: grid;
-    grid-template-columns: 175px 1fr 1fr;
-}
+    grid-template-columns: 175px repeat(3, 1fr);
+    grid-gap: 2em;
+    justify-content: center;
+    margin-right: 2em;
+ }
 .rec_title  {
-    grid-column: 2/4;
+    grid-column: 2/5;
     grid-row: 1/2;
     text-align: center;
     margin: 10px;
     padding: 10px;
 }
+.card {
+    overflow: hidden;
+    box-shadow: 0px 2px 20px gray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.card:hover {
+   transform: scale(1.05); 
+}
+.card-image {
+    width: 100%;
+    object-fit: cover;
+}
+.card-title {
+    padding: 10px;
+    margin: 0;
+}
+.card-description   {
+    text-align: justify;
+    padding:0 1rem;
+    margin: 0;
+}
+.card button    {
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    border: 1px solid #1D3557;
+    color: #1D3557;
+    border-radius: 10px;
+}
+.card button:hover  {
+    background: #1D3557;
+    color: white;
+}
 /* Photo Album */
 .photos   {
     display: grid;
     grid-template-columns: 175px 1fr 1fr;
+    height: 490px;
 }
 .photo_title  {
     grid-column: 2/4;
@@ -226,6 +269,7 @@ main    {
 .memories   {
     display: grid;
     grid-template-columns: 175px 1fr 1fr;
+    height: 490px;
 }
 .mem_title  {
     grid-column: 2/4;
@@ -238,6 +282,7 @@ main    {
 .history   {
     display: grid;
     grid-template-columns: 175px 1fr 1fr;
+    height: 490px;
 }
 .his_title  {
     grid-column: 2/4;
@@ -245,6 +290,69 @@ main    {
     text-align: center;
     margin: 10px;
     padding: 10px;
+}
+.page {
+    display: grid;
+    grid-template-columns: 175px 1fr;
+}
+/* About Page */
+
+/* Contact Page */
+.contact   {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+}
+.contact-text   {
+    margin: 0;
+    padding-bottom: 20px;
+}
+.contact-left   {
+    padding: 30px;
+}
+.form input[type=text], select, textarea   {
+    height: 25px;
+    width:100%;
+    border: 1px solid #457B9D;
+    border-radius: 5px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+.form input[type=email], select, textarea {
+    height: 25px;
+    width: 100%;
+    border: 1px solid #457B9D;
+    border-radius: 5px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+.textarea   {
+    height: 125px;
+}
+.contact button {
+    width: 100px;
+    height: 36px;
+    background-color: #457B9D;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    float: right;
+    cursor: pointer;
+}
+.contact button:hover{
+    background-color: #1D3557;
+}
+.contact button:active  {
+    background-color: #1D3557;
+    box-shadow: 0 5px #bfbfbf; 
+    transform: translateY(4px);
+}
+.contact-right  {
+    align-self: center;
+    justify-self: center;
+}
+.contact-right img  {
+    box-shadow: 0px 10px 50px black;
 }
 footer {
     display: grid;
@@ -259,6 +367,7 @@ footer {
     padding-left: 30px;
 }
 .bottom_nav {
+    display: flex;
     padding-top: 15px;
 }
 .bottom_nav a:link, a:visited  {
