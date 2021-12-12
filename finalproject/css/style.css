@@ -37,6 +37,7 @@ h4  {
     font-family: Helvetica, sans-serif;
     font-size: 18px;
     font-weight: bold;
+    text-align: center;
 }
 p   {
     font-family: 'Segoe UI', Geneva, sans-serif;
@@ -234,24 +235,17 @@ main    {
     padding: 10px;
     margin: 0;
 }
-.card-description   {
-    text-align: justify;
-    padding:0 1rem;
-    margin: 0;
-}
 .card button    {
-    padding: 10px;
-    margin: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 125px;
+    align-self: center;
     font-weight: bold;
     font-size: 14px;
-    border: 1px solid #1D3557;
-    color: #1D3557;
-    border-radius: 10px;
-}
-.card button:hover  {
     background: #1D3557;
     color: white;
 }
+
 /* Photo Album */
 .photos   {
     display: grid;
