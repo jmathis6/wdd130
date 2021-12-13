@@ -16,23 +16,16 @@ h1 {
     font-family: Calibri, sans-serif;
     font-size: 60px;
     font-style: italic;
+    text-align: center;
  }
 h2 {
     color:#1D3557;
     font-family: Helvetica, sans-serif;
     font-size: 40px;
     font-weight: bold;
-    text-align: left;
-    margin-left: 20px;
-}
-h3 {
-    color: black;
-    font-family: Helvetica, sans-serif;
-    font-size: 20px;
-    font-weight: bolder;
     text-align: center;
 }
-h4  {
+h3 {
     color:#1D3557;
     font-family: Helvetica, sans-serif;
     font-size: 18px;
@@ -41,7 +34,7 @@ h4  {
 }
 p   {
     font-family: 'Segoe UI', Geneva, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 /* CSS Header Information */
@@ -62,6 +55,14 @@ header {
 }
 .title  {
     margin: 40PX 0 0 90px;
+}
+main    {
+    max-width: 960px;
+    margin: 0px auto;  
+    background-color: white;    
+}
+.temple {
+    z-index: 2;
 }
 /* Top Navigation */
 .topnav {
@@ -108,19 +109,16 @@ header {
 
 /* CSS Side Naviation */
 .sidenav {
-    grid-column: 1/2;
+    width: 175px; 
     grid-row: 1/4;
-    width: 175px;
     background-color: #457B9D;
     border-right: 5px solid #bfbfbf;
     font-size: 16px;
-    margin: 0px; 
     z-index: 1;
- }
+}
 .sidenav ul {
     list-style-type: none;
     padding: 0 10px;
-    margin: 10px 0 0 0;
 }
 .sidenav a:link {
     display: block;
@@ -141,43 +139,30 @@ header {
     color: white;
     background-color: #1D3557;
 }
-main    {
-    max-width: 960px;
-    margin: 0px auto;  
-    background-color: white;    
-}
+
 /* Home Page Information */
-.home_page  {
+.home-page  {
     display: grid;
-    grid-template-columns: 175px 1fr;
-    min-height: 675px;
+    grid-template-columns: 175px repeat(3, 1fr);
 }
 .familypix  {
-    grid-column: 2/3;   
+    grid-column: 2/5;
+    min-height: 650px;
 }
 .welcome    {
-    grid-row: 2;
     padding: 0 20px;
-    font-size: 18px;
+    font-size: 24px;
     color: #1D3557;
 }
 .welcome2    {
-    grid-row: 2;
     padding: 0 20px;
 }
-/*Calendar Page */
-.cal_page   {
-    display: grid;
-    grid-template-columns: 175px 1fr 1fr;
-    min-height: 675px;
-}
-
 /* News Page */
 .newsletter  {
     display: grid;
-    grid-template-columns: 175px 27px repeat(3, 1fr);
-    grid-rows: repeat(2 1fr);
-    min-height: 675px;
+    grid-template-columns: 175px repeat(3, 1fr);
+    grid-gap: 2em;
+    justify-content: center;
 }
 .news_title {
     grid-column: 2/6;
@@ -187,46 +172,53 @@ main    {
     padding: 10px;
 }
 .A1 {
-    grid-column: 3/4;
+    grid-column: 2/3;
+    align-self: ;
     grid-row: 2/3;
     text-align: justify;
     width: 220px;
 }
 .A2 {
-    grid-column: 4/5;
+    grid-column: 3/4;
     grid-row: 2/3;
     text-align: justify;
     width: 220px;
 }
 .A3 {
-    grid-column: 5/6;
+    grid-column: 4/5;
     grid-row: 2/3;
     text-align: justify;
     width: 220px;
 }
 .A4 {
-    grid-column: 3/4;
+    grid-column: 2/3;
     grid-row: 3/4;
     text-align: justify;
     width: 220px;
 }
-/* Recipe Page */
+/*Calendar Page */
+.cal_page   {
+    display: grid;
+    grid-template-columns: 175px 1fr 1fr;
+    min-height: 650px;
+}
+
+/* Recipe Pages */
 .recipes   {
     display: grid;
-    grid-template-columns: 175px repeat(3, 1fr);
+    grid-template-columns: 175px repeat(4, 1fr);
     grid-gap: 2em;
     justify-content: center;
     margin-right: 2em;
-    min-height: 675px;
+    min-height: 650px;
+ 
  }
 .rec_title  {
-    grid-column: 2/5;
-    grid-row: 1/2;
-    text-align: center;
-    margin: 10px;
-    padding: 10px;
+    grid-column: 2/6;
+    margin-bottom: 0;
 }
 .card {
+    height: 230px;
     overflow: hidden;
     box-shadow: 0px 2px 20px gray;
     border-radius: 5px;
@@ -250,8 +242,8 @@ main    {
 .photos   {
     display: grid;
     grid-template-columns: 175px 1fr 1fr;
-    height: 490px;
-    min-height: 675px;
+    min-height: 650px;
+
 }
 .photo_title  {
     grid-column: 2/4;
@@ -264,7 +256,8 @@ main    {
 .memories   {
     display: grid;
     grid-template-columns: 175px 1fr 1fr;
-    min-height: 675px;
+    min-height: 650px;
+ 
 }
 .mem_title  {
     grid-column: 2/4;
@@ -277,7 +270,8 @@ main    {
 .history   {
     display: grid;
     grid-template-columns: 175px 1fr 1fr;
-    min-height: 675px;
+    min-height: 650px;
+
 }
 .his_title  {
     grid-column: 2/4;
@@ -297,7 +291,7 @@ main    {
 .contact   {
     display: grid;
     grid-template-columns: 400px 1fr;
-    min-height: 675px;
+
 }
 .contact-text   {
     margin: 0;
