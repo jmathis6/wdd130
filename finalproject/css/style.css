@@ -57,13 +57,11 @@ header {
     margin: 40PX 0 0 90px;
 }
 main    {
-    max-width: 960px;
+    max-width: 1400px;
     margin: 0px auto;  
     background-color: white;    
 }
-.temple {
-    z-index: 2;
-}
+
 /* Top Navigation */
 .topnav {
     width: 100%;
@@ -143,10 +141,10 @@ main    {
 /* Home Page Information */
 .home-page  {
     display: grid;
-    grid-template-columns: 175px repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
 .familypix  {
-    grid-column: 2/5;
+    grid-column: 1/4;
     min-height: 650px;
 }
 .welcome    {
@@ -160,53 +158,42 @@ main    {
 /* News Page */
 .newsletter  {
     display: grid;
-    grid-template-columns: 175px repeat(3, 1fr);
-    grid-gap: 2em;
-    justify-content: center;
+    grid-template-columns: 175px repeat(5, 1fr);
+    grid-gap: 1em;
+    justify-items: center;
+    margin-right: 1em;
+    min-height: 650px;
 }
 .news_title {
-    grid-column: 2/6;
+    grid-column: 2/7;
     grid-row: 1/2;
     text-align: center;
     margin: 10px;
     padding: 10px;
 }
-.A1 {
-    grid-column: 2/3;
-    align-self: ;
-    grid-row: 2/3;
+.article {
     text-align: justify;
-    width: 220px;
+    width: 200px;
+    cursor: pointer;
 }
-.A2 {
-    grid-column: 3/4;
-    grid-row: 2/3;
-    text-align: justify;
-    width: 220px;
-}
-.A3 {
-    grid-column: 4/5;
-    grid-row: 2/3;
-    text-align: justify;
-    width: 220px;
-}
-.A4 {
-    grid-column: 2/3;
-    grid-row: 3/4;
-    text-align: justify;
-    width: 220px;
+.article img    {
+    width: 100%;
+    object-fit: cover;
 }
 /*Calendar Page */
 .cal_page   {
     display: grid;
-    grid-template-columns: 175px 1fr 1fr;
-    min-height: 650px;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    background-color: #bfbfbf;
 }
-
+.calendar   {
+    margin-left: 1.5em;
+}
 /* Recipe Pages */
 .recipes   {
     display: grid;
-    grid-template-columns: 175px repeat(4, 1fr);
+    grid-template-columns: 175px repeat(5, 1fr);
     grid-gap: 2em;
     justify-content: center;
     margin-right: 2em;
