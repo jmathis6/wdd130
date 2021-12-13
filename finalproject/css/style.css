@@ -109,11 +109,13 @@ header {
 /* CSS Side Naviation */
 .sidenav {
     grid-column: 1/2;
-    grid-row: 1/5;
+    grid-row: 1/4;
+    width: 175px;
     background-color: #457B9D;
     border-right: 5px solid #bfbfbf;
-    font-size: 14px;
+    font-size: 16px;
     margin: 0px; 
+    z-index: 1;
  }
 .sidenav ul {
     list-style-type: none;
@@ -142,25 +144,32 @@ header {
 main    {
     max-width: 960px;
     margin: 0px auto;  
-    background-color: white;
-     
+    background-color: white;    
 }
 /* Home Page Information */
 .home_page  {
     display: grid;
     grid-template-columns: 175px 1fr;
+    min-height: 675px;
 }
 .familypix  {
-    grid-column: 2/3;
-    
+    grid-column: 2/3;   
 }
 .welcome    {
+    grid-row: 2;
+    padding: 0 20px;
+    font-size: 18px;
+    color: #1D3557;
+}
+.welcome2    {
+    grid-row: 2;
     padding: 0 20px;
 }
 /*Calendar Page */
 .cal_page   {
     display: grid;
     grid-template-columns: 175px 1fr 1fr;
+    min-height: 675px;
 }
 
 /* News Page */
@@ -168,6 +177,7 @@ main    {
     display: grid;
     grid-template-columns: 175px 27px repeat(3, 1fr);
     grid-rows: repeat(2 1fr);
+    min-height: 675px;
 }
 .news_title {
     grid-column: 2/6;
@@ -207,6 +217,7 @@ main    {
     grid-gap: 2em;
     justify-content: center;
     margin-right: 2em;
+    min-height: 675px;
  }
 .rec_title  {
     grid-column: 2/5;
@@ -219,9 +230,6 @@ main    {
     overflow: hidden;
     box-shadow: 0px 2px 20px gray;
     border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     cursor: pointer;
 }
 .card:hover {
@@ -235,22 +243,15 @@ main    {
     padding: 10px;
     margin: 0;
 }
-.card button    {
-    padding: 5px;
-    margin-bottom: 10px;
-    width: 125px;
-    align-self: center;
-    font-weight: bold;
-    font-size: 14px;
-    background: #1D3557;
-    color: white;
+.card a  {
+    text-decoration: none;
 }
-
 /* Photo Album */
 .photos   {
     display: grid;
     grid-template-columns: 175px 1fr 1fr;
     height: 490px;
+    min-height: 675px;
 }
 .photo_title  {
     grid-column: 2/4;
@@ -263,7 +264,7 @@ main    {
 .memories   {
     display: grid;
     grid-template-columns: 175px 1fr 1fr;
-    height: 490px;
+    min-height: 675px;
 }
 .mem_title  {
     grid-column: 2/4;
@@ -276,7 +277,7 @@ main    {
 .history   {
     display: grid;
     grid-template-columns: 175px 1fr 1fr;
-    height: 490px;
+    min-height: 675px;
 }
 .his_title  {
     grid-column: 2/4;
@@ -291,10 +292,12 @@ main    {
 }
 /* About Page */
 
+
 /* Contact Page */
 .contact   {
     display: grid;
     grid-template-columns: 400px 1fr;
+    min-height: 675px;
 }
 .contact-text   {
     margin: 0;
@@ -350,6 +353,7 @@ main    {
 }
 footer {
     display: grid;
+    height: 100px;
     grid-template-columns: 700px 1fr;
     color: white;
     background-color: #457B9D;  
@@ -373,6 +377,7 @@ footer {
 .bottom_nav a:hover, a:active {
     color: #182327;
 }
+
 
 
 
