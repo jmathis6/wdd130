@@ -193,7 +193,8 @@ main    {
 /* Recipe Pages */
 .recipes   {
     display: grid;
-    grid-template-columns: 175px repeat(5, 1fr);
+    grid-template-columns: 175px repeat(6, 1fr);
+    grid-template-rows: 100px repeat(2, 1fr);
     grid-gap: 2em;
     justify-content: center;
     margin-right: 2em;
@@ -201,7 +202,7 @@ main    {
  
  }
 .rec_title  {
-    grid-column: 2/6;
+    grid-column: 2/8;
     margin-bottom: 0;
 }
 .card {
@@ -219,8 +220,7 @@ main    {
     object-fit: cover;
 }
 .card-title {
-    padding: 10px;
-    margin: 0;
+    margin-top: .25em
 }
 .card a  {
     text-decoration: none;
