@@ -181,23 +181,23 @@ main    {
     margin: 10px;
     padding: 10px;
 }
-.article {
+.post {
     text-align: justify;
     width: 200px;
     cursor: pointer;  
 }
-.article img    {
+.post img    {
     width: 100%;
     object-fit: cover;
 }
-.article button {
+.post button {
     padding: 10px;
     background-color: #457B9D;
     color: white;
     border: none;
     cursor: pointer;
 }
-.article:not(:last-child) {
+.post:not(:last-child) {
     margin-bottom: 50px;
 } 
 .hide{
