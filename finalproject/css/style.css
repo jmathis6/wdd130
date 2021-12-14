@@ -80,6 +80,7 @@ main    {
 }
 .topnav ul{
     font-size: 16px;
+    font-weight: bold;
     list-style-type: none;
     display: flex;
     margin-top: 5px;
@@ -102,7 +103,7 @@ main    {
     color: white;
 }
 .topnav a:hover {
-    color: white;
+    color: #457B9D; 
     background-color: #1D3557;
 }
 .topnav a:active {
@@ -110,8 +111,8 @@ main    {
     background-color: #1D3557;
 }
 .topnav a.current    {
-    color: white;
-    background-color: #A62639;  
+    color: #1D3557;
+
 }
 /* CSS Side Naviation */
 .sidenav {
@@ -182,12 +183,21 @@ main    {
 .article {
     text-align: justify;
     width: 200px;
-    cursor: pointer;
+    cursor: pointer;  
 }
 .article img    {
     width: 100%;
     object-fit: cover;
 }
+.article button {
+    padding: 10px;
+    background-color: #457B9D;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.article:not(:last-child)
+    margin-bottom: 50px;
 /*Calendar Page */
 .cal_page   {
     display: grid;
