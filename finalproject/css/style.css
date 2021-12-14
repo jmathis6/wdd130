@@ -66,7 +66,8 @@ header {
 main    {
     max-width: 1400px;
     margin: 0px auto;  
-    background-color: white;    
+    background-color: white;
+    min-height: 625px;    
 }
 
 /* Top Navigation */
@@ -81,8 +82,8 @@ main    {
     font-size: 16px;
     list-style-type: none;
     display: flex;
-    margin: 0;
-    padding-left: 5px;
+    margin-top: 5px;
+    padding-left: 0px;
 
  }
 .topnav li {
@@ -108,10 +109,10 @@ main    {
     color: white;
     background-color: #1D3557;
 }
-.active    {
-    color: #1D3557;    
+.topnav a.current    {
+    color: white;
+    background-color: #A62639;  
 }
-
 /* CSS Side Naviation */
 .sidenav {
     width: 175px; 
@@ -151,8 +152,7 @@ main    {
     grid-template-columns: repeat(4, 1fr);
 }
 .familypix  {
-    grid-column: 1/4;
-    min-height: 650px;
+    grid-column: 1/5;
 }
 .welcome    {
     padding: 0 20px;
@@ -160,6 +160,7 @@ main    {
     color: #1D3557;
 }
 .welcome2    {
+    grid-column: 1/5;
     padding: 0 20px;
 }
 /* News Page */
@@ -256,7 +257,6 @@ main    {
     display: grid;
     grid-template-columns: 175px 1fr 1fr;
     min-height: 650px;
-
 }
 .photo_title  {
     grid-column: 2/4;
@@ -369,17 +369,21 @@ footer {
 }
 /*footer */
 .copyright  {
-    padding-left: 30px;
+    padding: 20px 0 0 30px;
+    margin: 0;
 }
 .bottom_nav {
-    display: flex;
-    padding-top: 15px;
+    justify-self: center;
+    padding: 20px 0 0 30px;
+
+ 
 }
 .bottom_nav a:link, a:visited  {
     color: white;
     text-decoration: none;
-    padding-right: 100px;
+    font-size: 16px;
     font-weight: bold;
+    padding-right: 75px;
 }
 .bottom_nav a:hover, a:active {
     color: #182327;
