@@ -36,8 +36,8 @@
                         <li><a href="appetizers.html">Appetizers</a></li>
                         <li><a href="drinks.html">Drinks</a></li>
                         <li><a href="soup_salad.html">Soups & Salads</a></li>
-                        <li><a href="sides.html">Side Dishes</a></li>
                         <li><a href="main_dishes.html">Main Dishes</a></li>
+                        <li><a href="sides.html">Side Dishes</a></li>
                         <li><a href="desserts.html">Desserts</a></li>
                         <li><a href="snacks.html">Snacks</a></li>
                         <li><a href="misc.html">Miscellaneous</a></li>
@@ -47,33 +47,53 @@
             <h2 class="rec_title">Mathis Family Recipes</h2>
             <div class="card">
                 <a href="recipes/roast-beef.jpg" target="_blank"><img class="card-image" src="recipes/rst_beef.jpg" alt="roast beef">
-                <h3 class="card-title">Roast Beef</h3></a>
+                <h4 class="card-title">Roast Beef</h4></a>
             </div>
-
             <div class="card">
                 <a href="recipes/chk-lasagna.jpg" target="_blank"><img class="card-image" src="recipes/chk_lasagna.jpg" alt="chicken lasagna">
-                <h3 class="card-title">Chicken Alfredo Lasagna</h3></a>
+                <h4 class="card-title">Chicken Alfredo Lasagna</h4></a>
             </div>
-
             <div class="card">
                 <a href="recipes/spam-casserole.jpg" target="_blank"><img class="card-image" src="recipes/spam_casserole.jpg" alt="roast beef">
-                <h3 class="card-title">Spam & Potato Casserole</h3></a>
+                <h4 class="card-title">Spam & Potato Casserole</h4></a>
             </div>
-
             <div class="card">
                 <a href="recipes/taco-ring.jpg" target="_blank"><img class="card-image" src="recipes/taco_ring.jpg" alt="taco ring">
-                <h3 class="card-title">Taco Ring</h3></a>
+                <h4 class="card-title">Taco Ring</h4></a>
             </div>
-
             <div class="card">
                 <a href="recipes/chili.jpg" target="_blank"><img class="card-image" src="recipes/chili1.jpg" alt="taco ring">
-                <h3 class="card-title">Chili Con Carne</h3></a>
+                <h4 class="card-title">Chili Con Carne</h4></a>
             </div>
-
             <div class="card">
-                <a href="recipes/taco-ring.jpg" target="_blank"><img class="card-image" src="recipes/taco_ring.jpg" alt="taco ring"><a href="recipes/taco-ring.jpg" target="_blank">
-                <h3 class="card-title">Taco Ring</h3></a>
+                <a href="recipes/bbq_chk_pizza_recipe.html" target="_blank"><img class="card-image" src="recipes/bbq_chk_pizza.jpg" alt="barbeque pizza">
+                <h4 class="card-title">Smoky Barbeque Chicken Pizza</h4></a>
             </div>
+            <div class="contribute">
+                <h3>Share Your Favorite Recipes!</h3>
+                <p class="share1">Do you have a favorite recipe to share or have you tried something lately you think the rest of the family will enjoy?</p>
+                <p class="share2">Take a picture of the dish (it doesn't have to be fancy) and send the recipe along with the picture to <a href="mailto:juliejmathis1@gmail.com">mom</a> in an email or use the form on this page.</p>
+                <img src="images/party.jpg" class="fam_dinner" alt="women and girls with cake and balloons">
+            </div>
+            
+            <div class="rec_form">
+                <h3 class="comment-text">Comments</h3>
+                <div class="form">
+                    <form action="recipe_page" method="post"></form>
+                        <label for="name">Name</label>
+                        <input type="text" id="name">
+                        <label for="email">Email</label>
+                        <input type="email" id="email">
+                        <label for="comment">Comment</label>
+                        <textarea name="comment" id="comment" class="recipe_comment"></textarea>
+                        <form action="/action_page.php">
+                        <input type="file" id="myfile" name="myfile">   
+                        </form>
+                        <p>
+                            <button type="submit">Submit</button>
+                        </p>
+                </div>
+            </div>    
         </div>
     </main>
     </div>

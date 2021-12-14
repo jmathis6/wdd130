@@ -28,6 +28,13 @@ h2 {
 h3 {
     color:#1D3557;
     font-family: Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+h4 {
+    color:#1D3557;
+    font-family: Helvetica, sans-serif;
     font-size: 18px;
     font-weight: bold;
     text-align: center;
@@ -108,7 +115,7 @@ main    {
 /* CSS Side Naviation */
 .sidenav {
     width: 175px; 
-    grid-row: 1/4;
+    grid-row: 1/5;
     background-color: #457B9D;
     border-right: 5px solid #bfbfbf;
     font-size: 16px;
@@ -194,12 +201,10 @@ main    {
 .recipes   {
     display: grid;
     grid-template-columns: 175px repeat(6, 1fr);
-    grid-template-rows: 100px repeat(2, 1fr);
+    grid-template-rows: 100px 230px 1fr;
     grid-gap: 2em;
     justify-content: center;
-    margin-right: 2em;
-    min-height: 650px;
- 
+    margin-right: 2em; 
  }
 .rec_title  {
     grid-column: 2/8;
@@ -225,6 +230,27 @@ main    {
 .card a  {
     text-decoration: none;
 }
+.contribute {
+    grid-row: 3/4;
+    grid-column: 2/5;
+    justify-self: center;
+    text-align: center;
+}
+
+.contribute img {
+    box-shadow: 0px 5px 25px gray;
+    border-radius: 5px;
+}
+.rec_form   {
+    grid-column: 5/8;
+    grid-row: 3/5;
+    margin: 0 50px;
+}
+.recipe_comment  {
+    height: 240px;
+} 
+
+
 /* Photo Album */
 .photos   {
     display: grid;
