@@ -196,8 +196,13 @@ main    {
     border: none;
     cursor: pointer;
 }
-.article:not(:last-child)
+.article:not(:last-child) {
     margin-bottom: 50px;
+} 
+.hide{
+    display: none;
+}
+
 /*Calendar Page */
 .cal_page   {
     display: grid;
