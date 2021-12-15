@@ -347,20 +347,20 @@ section {
 /* History Page */
 .history   {
     display: grid;
-    grid-template-columns: 175px 1fr 1fr;
+    grid-template-columns: 175px 1fr;
     min-height: 650px;
 
 }
 .his_title  {
-    grid-column: 2/4;
+    grid-column: 2/3;
     grid-row: 1/2;
     text-align: center;
     margin: 10px;
     padding: 10px;
 }
-.page {
-    display: grid;
-    grid-template-columns: 175px 1fr;
+.tree {
+    grid-column: 2/3;
+    justify-self: center;
 }
 /* Personal Pages */
 .personal_page  {
