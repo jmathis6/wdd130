@@ -288,16 +288,21 @@ section {
     margin: 10px;
     padding: 10px;
 }
- 
+.gallery {
+    border: 1px solid #ccc;
+  }
+  
+.gallery:hover {
+    border: 1px solid #777;
+  }
+  
 .gallery img {
     width: 100%;
     height: auto;
   }
-
 .karen4 {
-    grid-column: 3/5;
-    grid-row: 2/3;
-} 
+     grid-column: 3/5;
+ } 
 
 .desc {
     padding: 15px;
