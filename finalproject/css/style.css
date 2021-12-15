@@ -28,7 +28,7 @@ h2 {
 h3 {
     color:#1D3557;
     font-family: Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     text-align: center;
 }
@@ -309,20 +309,40 @@ section {
     text-align: center;
   }
 
-  
 /*Memories Page */
 .memories   {
     display: grid;
-    grid-template-columns: 175px 1fr 1fr;
+    grid-template-columns: 175px repeat(4, 1fr);
     min-height: 650px;
- 
 }
 .mem_title  {
-    grid-column: 2/4;
+    grid-column: 2/6;
     grid-row: 1/2;
+    justify-self: center;
+    margin: 15px;
+}
+.mem_subtitle {
+    grid-column: 2/6;
+    grid-row: 2/3;
     text-align: center;
-    margin: 10px;
+    background-color: #1D3557;
+    color: white;
+    margin: 0;
     padding: 10px;
+}
+.mem1   {
+    grid-column: 2/4;
+    grid-row: 3/4;
+}
+.mem3   {
+    grid-column: 2/4;
+    grid-row: 4/5;
+}
+.m1 {
+    grid-column: 4/6;
+    grid-row: 3/5;
+    padding: 0 20px 0 10px;
+    text-align: justify;
 }
 /* History Page */
 .history   {
