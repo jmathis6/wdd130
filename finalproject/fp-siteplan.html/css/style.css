@@ -1,128 +1,130 @@
+/* CSS General Information */
 body {
     box-sizing: border-box;
-    margin: auto;
-    padding: 0;
-    text-align: left;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
     font-family: 'Segoe UI', Geneva, sans-serif;
-    font-size: 16px;
-    font-weight:500;
-    background-color: #1D3557;
-    max-width: 960px;
-}
-header {
-    grid-column: 1/4;
-    grid-row: 1;
-    background-color: #457b9d;
-    border: 10px solid  #BFBFBF;
+    font-size: 14px;
+    background-color: #bfbfbf;  
+    font-weight: 500;
 }
 
-main {
-    background-color: #F1FAEE;
-    padding: 10px;
-    border-width: 0px 10px 10px 0px; 
-    border-style: solid;
-    border-color: #bfbfbf;
-}
 h1 {
-    color: white;
-    font-family: Harrington, sans-serif;
+    color: #1D3557;
+    font-family: Calibri, sans-serif;
     font-size: 60px;
     font-style: italic;
-    text-shadow: 2px 2px 3px #1D3557;
-}
+    text-align: center;
+ }
 h2 {
-    color:#457B9D;
+    color:#1D3557;
     font-family: Helvetica, sans-serif;
     font-size: 40px;
     font-weight: bold;
+    text-align: left;
 }
 h3 {
-    color:#457B9D;
+    color:#1D3557;
     font-family: Helvetica, sans-serif;
-    font-size: 32px;
+    font-size: 25px;
     font-weight: bold;
+    text-align: left;
 }
-h4  {
-    color:black;
+h4 {
+    color:#1D3557;
     font-family: Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
+    text-align: left;
 }
 p   {
     font-family: 'Segoe UI', Geneva, sans-serif;
     font-size: 16px;
 }
 
-footer {
-    grid-column: 1/4;
-    grid-row: 3;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 0;
-    color: white;
- }
-
-/* CSS Information */
-.page  {
-    display: grid;
-    grid-template-columns: 250px 1fr;
-    max-width: 1000px;
-}
 /* CSS Header Information */
-.logo {
-    float: left;
-    width: 120px;
-    height: auto;
-    padding: 10px;
+header {
+    height: 125px;
+    display: flex;
+    position: relative;
+    border-bottom: 20px solid #A62639;
     background-color: white;
+ }
+ .center  {
+    width: 960px;
+    margin: 0px auto;
+}
+.logo {
+    position: absolute;
+    margin: 30PX 0px;
 }
 .title  {
-    padding-top: 30px;
-    text-align: center;
-    margin: 0;
+    margin: 40PX 0 0 90px;
+}
+.topnav {
+    width: 100%;
+    height: 60px;
+    border-top: 5px solid #bfbfbf; 
+    border-bottom: 5px solid #bfbfbf;
+    background-color: #457B9D;   
 }
 /* CSS Side Naviation */
 .sidenav {
-    grid-column: 1;
+    width: 175px; 
+    grid-row: 1/5;
     background-color: #457B9D;
-    border-width: 0px 0px 10px 10px; 
-    border-style: solid;
-    border-color: #bfbfbf;
-    font-size: 20px;
- }
+    border-right: 5px solid #bfbfbf;
+    font-size: 16px;
+}
 .sidenav ul {
     list-style-type: none;
     padding: 0 10px;
-    margin-top: 10px;
 }
 .sidenav a:link {
     display: block;
     padding: 20px;
     text-decoration: none;
-    background-color: #457B9D;
     text-align: center;
     color: white;
     font-weight: bold;
 }
 .sidenav a:visited {
     color: white;
-    background-color: #457B9D;
 }
 .sidenav a:hover {
     color: white;
-    background-color: #1d3557;
+    background-color: #1D3557;
 }
 .sidenav a:active {
     color: white;
-    background-color: #182327;
+    background-color: #1D3557;
 }
-/* Main Section CSS */
+.sidenav a.current    {
+    color: #1D3557;
+}
+/* Main Section */
+main    {
+    max-width: 1100px;
+    margin: 0px auto;  
+    background-color: white;
+    min-height: 625px;  
+    margin-top: 0px;  
+}
+.page   {
+    display: grid;
+    grid-template-columns: 175px 1fr;
+}
+.sections   {
+    grid-column: 2/3;
+    margin-left: 20px;
+    text-align: left;
+}
 .siteplan   {
-    margin: 10px 0 0 210px;
+    margin-top: 10px;
 }
 .julie   {
-    margin: 0 0 0 250px;
-
+    margin-top: 10px;
 }
 .sitename   {
     margin: 10px 0;
@@ -142,12 +144,32 @@ footer {
 .type    {
     margin: 20px 0;
 }
-.copyright  {
-    float: left;
+/*footer */
+footer  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 60px;
+    border-top: 5px solid #bfbfbf; 
+    border-bottom: 5px solid #bfbfbf;
+    background-color: #457B9D;
 }
-.footer a   {
+.copyright  {
     color: white;
-    float: right;
-    padding-left: 75px;
+    padding: 20px 0 0 30px;
+    margin: 0;
+}
+.bottom_nav {
+    align-self: right;
+    padding: 20px 0 0 30px;
+}
+.bottom_nav a:link, a:visited  {
+    color: white;
     text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 75px;
+}
+.bottom_nav a:hover, a:active {
+    color: #182327;
 }
