@@ -316,61 +316,52 @@ section {
 /*Memories Page */
 .memories   {
     display: grid;
-    grid-template-columns: 175px repeat(4, 1fr);
+    grid-template-columns: 175px 1fr;
     min-height: 650px;
 }
 .mem_top    {
-    grid-column: 2/6;
+    grid-column: 2/4;
     grid-row: 1/2;
+    height: 188px;
  }
 .mem_title  {
-    grid-column: 2/6;
+    grid-column: 2/4;
     grid-row: 1/2;
     justify-self: center;
     align-self: center;
     margin-bottom: 5px;
 }
 .mem_subtitle {
-    grid-column: 2/6;
-    grid-row: 2/3;
-    text-align: center;
     background-color: #1D3557;
     color: white;
-    margin: 20px 0 0 0;
-    padding: 5px;
+    padding: 10px;
+    margin:15 0px;
+    border-top: 5px solid #bfbfbf; 
+    border-bottom: 5px solid #bfbfbf;    
 }
-.mem_subtitle {
-    grid-column: 2/6;
-    grid-row: 2/3;
-    text-align: center;
-    background-color: #1D3557;
-    color: white;
-    margin: 20px 0 0 0;
-    padding: 5px;
-}
-.author     {
-    text-align: center;
-}
-.share_mem {
-    text-align: center;
+.page_author    {
+    margin: 0;
 }
 .mem_content   {
-    grid-column: 4/6;
-    grid-row: 3/5;
-    padding: 0 20px 0 10px;
     text-align: justify;
+    padding: 0 20px;
+    
 }
-.memories img   {
-    width: 100%;
+.mem_content h4   {
+    padding: 0 20px 0 0 ;    
+}
+
+.author {
+    margin-top: 20px; 
 }
 
 .mem1   {
-    grid-column: 2/4;
-    grid-row: 3/4;
+   float: left;
+   margin: 20px 20px 10px 0;
 }
 .mem2 {
-    grid-column: 2/4;
-    grid-row: 4/5;
+    float: left;
+    margin: 10px 20px 20px 0;
 }
 /* History Page */
 .history   {
