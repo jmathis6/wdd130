@@ -176,7 +176,6 @@ main    {
     column-gap: 40px;
     column-rule: 2px solid #bfbfbf;
     column-fill: balance;
-    -webkit-column-break-inside: avoid;
     top: 0;
     margin: 0px 20px 0 30px;
     min-height: 650px;   
