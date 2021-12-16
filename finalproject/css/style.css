@@ -297,6 +297,7 @@ section {
   
 .gallery:hover {
     box-shadow: 0px 5px 25px gray;
+    opacity: 0.9;
   }
   
 .gallery img {
@@ -318,11 +319,16 @@ section {
     grid-template-columns: 175px repeat(4, 1fr);
     min-height: 650px;
 }
+.mem_top    {
+    grid-column: 2/6;
+    grid-row: 1/2;
+ }
 .mem_title  {
     grid-column: 2/6;
     grid-row: 1/2;
     justify-self: center;
-    margin: 15px;
+    align-self: center;
+    margin-bottom: 5px;
 }
 .mem_subtitle {
     grid-column: 2/6;
@@ -330,26 +336,41 @@ section {
     text-align: center;
     background-color: #1D3557;
     color: white;
-    margin: 0;
-    padding: 10px;
+    margin: 20px 0 0 0;
+    padding: 5px;
 }
-.memories img   {
-    width: 100%;
-    object-fit: cover;
+.mem_subtitle {
+    grid-column: 2/6;
+    grid-row: 2/3;
+    text-align: center;
+    background-color: #1D3557;
+    color: white;
+    margin: 20px 0 0 0;
+    padding: 5px;
 }
-.mem1   {
-    grid-column: 2/4;
-    grid-row: 3/4;
+.author     {
+    text-align: center;
 }
-.mem3   {
-    grid-column: 2/4;
-    grid-row: 4/5;
+.share_mem {
+    text-align: center;
 }
-.m1 {
+.mem_content   {
     grid-column: 4/6;
     grid-row: 3/5;
     padding: 0 20px 0 10px;
     text-align: justify;
+}
+.memories img   {
+    width: 100%;
+}
+
+.mem1   {
+    grid-column: 2/4;
+    grid-row: 3/4;
+}
+.mem2 {
+    grid-column: 2/4;
+    grid-row: 4/5;
 }
 /* History Page */
 .history   {
@@ -369,12 +390,7 @@ section {
     grid-column: 2/3;
     justify-self: center;
 }
-/* Personal Pages */
-.personal_page  {
-    display: grid;
-    grid-template-columns: 175px repeat(4, 1fr);
-    min-height: 650px;
-}
+
 /* About Page */
 .about  {
     display: block;
