@@ -333,6 +333,10 @@ section {
     margin: 0;
     padding: 10px;
 }
+.memories img   {
+    width: 100%;
+    object-fit: cover;
+}
 .mem1   {
     grid-column: 2/4;
     grid-row: 3/4;
