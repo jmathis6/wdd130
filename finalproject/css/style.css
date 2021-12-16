@@ -325,8 +325,6 @@ section {
     height: 188px;
  }
 .mem_title  {
-    grid-column: 2/4;
-    grid-row: 1/2;
     justify-self: center;
     align-self: center;
     margin-bottom: 5px;
